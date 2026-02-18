@@ -1,0 +1,171 @@
+
+<h2>Mein aktuellster Content</h2>
+
+<table class="list" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <th>Name</th>
+        <th>Typ</th>
+        <th>Geändert</th>
+        <th class="tight"></th>
+    </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/Verwaltung/seitenverwaltung" title="Seitenverwaltung - [SITEINFO]">Seitenverwaltung - [SITEINFO]</a>
+            </td>
+            <td>
+                Seiteninformationen
+            </td>
+            <td>
+                14.02.2026
+            </td>
+            <td>
+                            <a href="/content/edit/63/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Seitenverwaltung - [SITEINFO]&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/JAC-Example/Showcase" title="Showcase">Showcase</a>
+            </td>
+            <td>
+                Zielseite
+            </td>
+            <td>
+                12.05.2021
+            </td>
+            <td>
+                            <a href="/content/edit/190/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Showcase&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/Verwaltung/Cookie-Richtlinie" title="Cookie Richtlinie - [COOKIE POLICY]">Cookie Richtlinie - [COOKIE...</a>
+            </td>
+            <td>
+                Cookie policy
+            </td>
+            <td>
+                11.05.2021
+            </td>
+            <td>
+                            <a href="/content/edit/173/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Cookie Richtlinie - [COOKIE POLICY]&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/JAC-Example" title="JAC Example">JAC Example</a>
+            </td>
+            <td>
+                Ordner
+            </td>
+            <td>
+                03.03.2021
+            </td>
+            <td>
+                            <a href="/content/edit/174/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;JAC Example&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/JAC-Example/Showcase/File-test" title="File test">File test</a>
+            </td>
+            <td>
+                Datei
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/210/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;File test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/JAC-Example/Showcase/News-test" title="News test">News test</a>
+            </td>
+            <td>
+                Neuigkeiten
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/206/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;News test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/JAC-Example/Showcase/Image-test" title="Image test">Image test</a>
+            </td>
+            <td>
+                Bild
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/209/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Image test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/JAC-Example/Showcase/Video-test" title="Video test">Video test</a>
+            </td>
+            <td>
+                Video
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/208/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Video test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/JAC-Example/Showcase/Recipe-test" title="Recipe test">Recipe test</a>
+            </td>
+            <td>
+                [NOT IN USE] Recipe
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/207/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;Recipe test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/JAC-Example/Showcase/HTML-box-test2" title="HTML box test">HTML box test</a>
+            </td>
+            <td>
+                HTML Block
+            </td>
+            <td>
+                29.11.2019
+            </td>
+            <td>
+                            <a href="/content/edit/204/f/ger-DE">
+                    <i class="fa fa-pencil-square-o" title="&lt;HTML box test&gt; bearbeiten."></i>
+                </a>
+                        </td>
+        </tr>
+    </table>
