@@ -2,11 +2,17 @@
   "entrypoints": {
     "app": {
       "js": [
-        "/assets/app/build/runtime.js?v=87f3d9f4f45f41844119",
-        "/assets/app/build/app.js?v=f56c5c9b774e5f2e9808"
+        "/assets/app/build/runtime.js?v=9f07b01c30b4ff491b18",
+        "/assets/app/build/app.js?v=ef8567fdbb5b66233d04"
       ],
       "css": [
-        "/assets/app/build/app.css?v=8a26156841871a10305b"
+        "/assets/app/build/app.css?v=e84ac901ab438c56bd26"
+      ]
+    },
+    "photoswipe-init": {
+      "js": [
+        "/assets/app/build/runtime.js?v=9f07b01c30b4ff491b18",
+        "/assets/app/build/photoswipe-init.js?v=7f8ff077cf400e728062"
       ]
     }
   }
