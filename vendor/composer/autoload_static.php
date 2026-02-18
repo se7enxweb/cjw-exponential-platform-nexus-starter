@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
+class ComposerStaticInite80d6b55f3b1a2f04625611863d9635a
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -397,8 +397,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'cweagans\\Composer\\' => 
         array (
-            0 => __DIR__ . '/..' . '/cweagans/composer-configurable-plugin/src',
-            1 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+            0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+            1 => __DIR__ . '/..' . '/cweagans/composer-configurable-plugin/src',
         ),
         'WhiteOctober\\PagerfantaBundle\\' => 
         array (
@@ -725,8 +725,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'PHPStan\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpstan/phpstan-doctrine/src',
-            1 => __DIR__ . '/..' . '/phpstan/phpstan-symfony/src',
+            0 => __DIR__ . '/..' . '/phpstan/phpstan-symfony/src',
+            1 => __DIR__ . '/..' . '/phpstan/phpstan-doctrine/src',
         ),
         'Overblog\\GraphiQLBundle\\' => 
         array (
@@ -790,13 +790,13 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Netgen\\EzPlatformSiteApi\\' => 
         array (
-            0 => __DIR__ . '/..' . '/netgen/ezplatform-site-api/lib',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-site-api/lib',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-site-api/lib',
+            1 => __DIR__ . '/..' . '/netgen/ezplatform-site-api/lib',
         ),
         'Netgen\\EzPlatformSearchExtra\\' => 
         array (
-            0 => __DIR__ . '/..' . '/netgen/ezplatform-search-extra/lib',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-search-extra/lib',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-search-extra/lib',
+            1 => __DIR__ . '/..' . '/netgen/ezplatform-search-extra/lib',
         ),
         'Netgen\\ContentBrowser\\Ez\\' => 
         array (
@@ -828,8 +828,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Netgen\\Bundle\\RichTextDataTypeBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/netgen/richtext-datatype-bundle',
-            1 => __DIR__ . '/..' . '/se7enxweb/richtext-datatype-bundle',
+            0 => __DIR__ . '/..' . '/se7enxweb/richtext-datatype-bundle',
+            1 => __DIR__ . '/..' . '/netgen/richtext-datatype-bundle',
         ),
         'Netgen\\Bundle\\RemoteMediaBundle\\' => 
         array (
@@ -889,13 +889,13 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Netgen\\Bundle\\EzPlatformSiteApiBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/netgen/ezplatform-site-api/bundle',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-site-api/bundle',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-site-api/bundle',
+            1 => __DIR__ . '/..' . '/netgen/ezplatform-site-api/bundle',
         ),
         'Netgen\\Bundle\\EzPlatformSearchExtraBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/netgen/ezplatform-search-extra/bundle',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-search-extra/bundle',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-search-extra/bundle',
+            1 => __DIR__ . '/..' . '/netgen/ezplatform-search-extra/bundle',
         ),
         'Netgen\\Bundle\\EzFormsBundle\\' => 
         array (
@@ -1000,8 +1000,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Incenteev\\ParameterHandler\\' => 
         array (
-            0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
-            1 => __DIR__ . '/..' . '/se7enxweb/composer-parameter-handler',
+            0 => __DIR__ . '/..' . '/se7enxweb/composer-parameter-handler',
+            1 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
         ),
         'Imagine\\' => 
         array (
@@ -1049,8 +1049,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/message/src',
-            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
+            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
+            1 => __DIR__ . '/..' . '/php-http/message/src',
         ),
         'Http\\HttplugBundle\\' => 
         array (
@@ -1070,8 +1070,8 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Http\\Client\\Common\\Plugin\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/logger-plugin/src',
-            1 => __DIR__ . '/..' . '/php-http/stopwatch-plugin/src',
+            0 => __DIR__ . '/..' . '/php-http/stopwatch-plugin/src',
+            1 => __DIR__ . '/..' . '/php-http/logger-plugin/src',
         ),
         'Http\\Client\\Common\\' => 
         array (
@@ -1155,13 +1155,13 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'EzSystems\\PlatformHttpCacheBundle\\Tests\\' => 
         array (
-            0 => __DIR__ . '/..' . '/ezsystems/ezplatform-http-cache/tests',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-http-cache/tests',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-http-cache/tests',
+            1 => __DIR__ . '/..' . '/ezsystems/ezplatform-http-cache/tests',
         ),
         'EzSystems\\PlatformHttpCacheBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/ezsystems/ezplatform-http-cache/src',
-            1 => __DIR__ . '/..' . '/se7enxweb/ezplatform-http-cache/src',
+            0 => __DIR__ . '/..' . '/se7enxweb/ezplatform-http-cache/src',
+            1 => __DIR__ . '/..' . '/ezsystems/ezplatform-http-cache/src',
         ),
         'EzSystems\\PlatformBehatBundle\\' => 
         array (
@@ -1324,9 +1324,9 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         'Doctrine\\Common\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
-            2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
-            3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+            1 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
+            2 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+            3 => __DIR__ . '/..' . '/doctrine/event-manager/src',
         ),
         'Doctrine\\Bundle\\MigrationsBundle\\' => 
         array (
@@ -1391,9 +1391,9 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
-            0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
+            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
             1 => __DIR__ . '/..' . '/behat/mink-goutte-driver/src',
-            2 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
+            2 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (
@@ -3047,11 +3047,11 @@ class ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInitcc1a9bc12c28179bf231d1fd4c75f929::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite80d6b55f3b1a2f04625611863d9635a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite80d6b55f3b1a2f04625611863d9635a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite80d6b55f3b1a2f04625611863d9635a::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInite80d6b55f3b1a2f04625611863d9635a::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInite80d6b55f3b1a2f04625611863d9635a::$classMap;
 
         }, null, ClassLoader::class);
     }

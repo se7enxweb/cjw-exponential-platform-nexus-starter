@@ -33,7 +33,7 @@
             },
             "time": "2024-07-15T13:18:35+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "lib/Assert/functions.php"
@@ -117,7 +117,7 @@
                     "dev-master": "3.6.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Behat\\": "src/Behat/Behat/",
@@ -196,7 +196,7 @@
                     "dev-master": "4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Gherkin\\": "src/"
@@ -282,7 +282,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Mink\\": "src/"
@@ -347,7 +347,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Mink\\Driver\\": "src/"
@@ -410,7 +410,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Behat\\MinkExtension": "src/"
@@ -475,7 +475,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Mink\\Driver\\": "src/"
@@ -540,7 +540,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Mink\\Driver\\": "src/"
@@ -613,7 +613,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Behat\\Symfony2Extension": "src/"
@@ -677,7 +677,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Behat\\Transliterator\\": "src/Behat/Transliterator"
@@ -724,7 +724,7 @@
             },
             "time": "2015-12-17T13:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "": "src"
@@ -792,7 +792,7 @@
             },
             "time": "2018-12-22T21:15:53+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Bex\\Behat\\ScreenshotExtension\\": "src"
@@ -856,7 +856,7 @@
             },
             "time": "2026-02-10T14:33:43+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Brick\\Math\\": "src/"
@@ -896,17 +896,17 @@
         },
         {
             "name": "captainhook/captainhook",
-            "version": "5.28.1",
-            "version_normalized": "5.28.1.0",
+            "version": "5.28.3",
+            "version_normalized": "5.28.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/captainhook-git/captainhook.git",
-                "reference": "772fb74000ef6cb53c2aa45278baa261dc17c7eb"
+                "reference": "5d35b249f3843ef36ead119f4347e649278ad6d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/captainhook-git/captainhook/zipball/772fb74000ef6cb53c2aa45278baa261dc17c7eb",
-                "reference": "772fb74000ef6cb53c2aa45278baa261dc17c7eb",
+                "url": "https://api.github.com/repos/captainhook-git/captainhook/zipball/5d35b249f3843ef36ead119f4347e649278ad6d8",
+                "reference": "5d35b249f3843ef36ead119f4347e649278ad6d8",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +929,7 @@
                 "composer/composer": "~1 || ^2.0",
                 "mikey179/vfsstream": "~1"
             },
-            "time": "2026-02-14T11:31:16+00:00",
+            "time": "2026-02-16T14:08:58+00:00",
             "bin": [
                 "bin/captainhook"
             ],
@@ -942,7 +942,7 @@
                     "dev-main": "6.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "CaptainHook\\App\\": "src/"
@@ -971,7 +971,7 @@
             ],
             "support": {
                 "issues": "https://github.com/captainhook-git/captainhook/issues",
-                "source": "https://github.com/captainhook-git/captainhook/tree/5.28.1"
+                "source": "https://github.com/captainhook-git/captainhook/tree/5.28.3"
             },
             "funding": [
                 {
@@ -1002,7 +1002,7 @@
             },
             "time": "2025-04-08T07:10:48+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "CaptainHook\\Secrets\\": "src/"
@@ -1065,7 +1065,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "CJW\\CJWConfigProcessor\\": ""
@@ -1129,7 +1129,7 @@
             },
             "time": "2023-02-09T18:55:50+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/Helpers.php"
@@ -1187,7 +1187,7 @@
             },
             "time": "2023-12-20T15:40:13+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -1268,7 +1268,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PackageVersions\\": "src/PackageVersions"
@@ -1338,7 +1338,7 @@
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/"
@@ -1391,7 +1391,7 @@
             },
             "time": "2023-02-12T04:58:58+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "cweagans\\Composer\\": "src"
@@ -1461,7 +1461,7 @@
                 "plugin-modifies-downloads": true,
                 "plugin-modifies-install-path": true
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "cweagans\\Composer\\": "src"
@@ -1513,7 +1513,7 @@
             },
             "time": "2019-06-27T06:47:18+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "autoload.php"
@@ -1586,7 +1586,7 @@
             },
             "time": "2024-09-05T10:15:52+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
@@ -1669,7 +1669,7 @@
             },
             "time": "2022-05-20T20:06:54+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
@@ -1762,7 +1762,7 @@
             },
             "time": "2022-09-01T20:12:10+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Collections\\": "lib/Doctrine/Common/Collections"
@@ -1849,7 +1849,7 @@
                     "dev-master": "2.11.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "lib/Doctrine/Common"
@@ -1953,7 +1953,7 @@
                 "bin/doctrine-dbal"
             ],
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\DBAL\\": "lib/Doctrine/DBAL"
@@ -2057,7 +2057,7 @@
             },
             "time": "2026-02-07T07:09:04+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Deprecations\\": "src"
@@ -2122,7 +2122,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Bundle\\DoctrineCacheBundle\\": ""
@@ -2204,7 +2204,7 @@
             },
             "time": "2021-03-18T20:55:50+00:00",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Bundle\\MigrationsBundle\\": ""
@@ -2288,7 +2288,7 @@
             },
             "time": "2022-10-12T20:51:15+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "src"
@@ -2385,7 +2385,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Inflector\\": "lib/Doctrine/Inflector",
@@ -2482,7 +2482,7 @@
             },
             "time": "2022-12-30T00:15:36+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
@@ -2551,7 +2551,7 @@
             },
             "time": "2022-02-28T11:07:21+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -2655,7 +2655,7 @@
                     "dev-master": "2.2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Migrations\\": "lib/Doctrine/Migrations"
@@ -2758,7 +2758,7 @@
                     "dev-master": "2.7.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\ORM\\": "lib/Doctrine/ORM"
@@ -2841,7 +2841,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "lib/Doctrine/Common",
@@ -2939,7 +2939,7 @@
             },
             "time": "2023-07-27T18:11:59+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "lib/Doctrine/Common"
@@ -3022,7 +3022,7 @@
                     "dev-master": "3.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Egulias\\EmailValidator\\": "src"
@@ -3087,7 +3087,7 @@
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EdiModric\\Twig\\": "src/"
@@ -3121,29 +3121,29 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.7.4",
-            "version_normalized": "1.7.4.0",
+            "version": "1.8.0",
+            "version_normalized": "1.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
-                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": ">=5.3.0"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35"
+                "phpunit/phpunit": "^7.5|^8.5|^9.6"
             },
-            "time": "2019-12-30T22:54:17+00:00",
+            "time": "2026-02-16T11:41:01+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Parsedown": ""
@@ -3168,8 +3168,14 @@
             ],
             "support": {
                 "issues": "https://github.com/erusev/parsedown/issues",
-                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+                "source": "https://github.com/erusev/parsedown/tree/1.8.0"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
             "install-path": "../erusev/parsedown"
         },
         {
@@ -3207,7 +3213,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Bex\\Behat\\ScreenshotExtension\\Driver\\": "src"
@@ -3274,7 +3280,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "EzSystems\\BehatBundle": ""
@@ -3335,7 +3341,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\PlatformHttpCacheBundle\\": "src",
@@ -3387,7 +3393,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformMatrixFieldtype\\": "src/lib/",
@@ -3450,7 +3456,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformRichText\\": "src/lib",
@@ -3498,7 +3504,7 @@
             },
             "time": "2025-10-17T16:34:55+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "library/HTMLPurifier.composer.php"
@@ -3564,7 +3570,7 @@
                     "dev-master": "3.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Goutte\\": "Goutte"
@@ -3628,7 +3634,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Fig\\Link\\": "src/"
@@ -3699,7 +3705,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "FOS\\HttpCache\\": "src/",
@@ -3788,7 +3794,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "FOS\\HttpCacheBundle\\": ""
@@ -3859,7 +3865,7 @@
                     "dev-master": "1.9-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Faker\\": "src/Faker/"
@@ -3917,7 +3923,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "ReCaptcha\\": "src/ReCaptcha"
@@ -4002,7 +4008,7 @@
                     "dev-master": "3.8-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Guzzle": "src/",
@@ -4079,7 +4085,7 @@
                     "dev-master": "6.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -4183,7 +4189,7 @@
             },
             "time": "2023-05-21T12:31:43+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -4274,7 +4280,7 @@
             },
             "time": "2023-04-17T16:00:37+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -4382,7 +4388,7 @@
             },
             "time": "2025-12-15T11:28:16+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Factory\\Guzzle\\": "src/"
@@ -4445,7 +4451,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Hautelook\\TemplatedUriBundle": ""
@@ -4510,7 +4516,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Hautelook\\TemplatedUriRouter\\": ""
@@ -4578,7 +4584,7 @@
                     "dev-develop": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Imagine\\": "src/"
@@ -4640,7 +4646,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Incenteev\\ParameterHandler\\": ""
@@ -4697,7 +4703,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "WebDriver": "lib/"
@@ -4761,7 +4767,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "lib"
@@ -4824,7 +4830,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Jean85\\": "src/"
@@ -4903,7 +4909,7 @@
                     "dev-master": "1.6-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "JMS\\TranslationBundle\\": ""
@@ -4977,7 +4983,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Knp\\Menu\\": "src/Knp/Menu"
@@ -5046,7 +5052,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Knp\\Bundle\\MenuBundle\\": "src"
@@ -5131,7 +5137,7 @@
                     "dev-master": "1.4-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -5206,7 +5212,7 @@
             },
             "time": "2018-09-05T17:20:52+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Buzz\\": "lib"
@@ -5273,7 +5279,7 @@
             },
             "time": "2025-11-01T09:38:14+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Laminas\\Code\\": "src/"
@@ -5337,7 +5343,7 @@
                     "module": "Laminas\\ZendFrameworkBridge"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/autoload.php"
@@ -5402,7 +5408,7 @@
                     "dev-master": "8.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "League\\Csv\\": "src"
@@ -5486,7 +5492,7 @@
                     "dev-master": "1.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "League\\Flysystem\\": "src/"
@@ -5560,7 +5566,7 @@
             },
             "time": "2024-09-21T08:32:55+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "League\\MimeTypeDetection\\": "src"
@@ -5632,7 +5638,7 @@
                     "dev-master": "4.x.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Lexik\\Bundle\\TranslationBundle\\": ""
@@ -5706,7 +5712,7 @@
                     "dev-master": "1.8-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Liuggio\\Fastest\\": [
@@ -5761,7 +5767,7 @@
                     "dev-master": "1.17.4-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Peast\\": "lib/Peast/"
@@ -5833,7 +5839,7 @@
             },
             "time": "2022-06-09T08:53:42+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -5906,7 +5912,7 @@
                     "dev-master": "2.8-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/JmesPath.php"
@@ -5972,7 +5978,7 @@
             },
             "time": "2025-08-01T08:46:24+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/DeepCopy/deep_copy.php"
@@ -6035,7 +6041,7 @@
                     "dev-master": "1.5.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Nelmio\\CorsBundle\\": ""
@@ -6104,7 +6110,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\BirthdayBundle\\": "bundle"
@@ -6200,7 +6206,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\ContentBrowser\\": "lib/",
@@ -6249,7 +6255,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\ContentBrowserUIBundle\\": "bundle/"
@@ -6303,7 +6309,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\ContentTypeListBundle\\": ""
@@ -6367,7 +6373,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\EnhancedSelectionBundle\\": "bundle/"
@@ -6429,7 +6435,7 @@
                     "dev-master": "2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\EzFormsBundle\\": "bundle"
@@ -6484,7 +6490,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezchangeclass"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6525,7 +6531,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezclasslists"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6581,7 +6587,7 @@
                     "dev-1.14": "1.15-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\EzPlatformSearchExtra\\": "lib",
@@ -6645,7 +6651,7 @@
                     "dev-master": "3.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\EzPlatformSiteApi\\": "lib",
@@ -6692,7 +6698,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezplatformsearch"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6742,7 +6748,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\GitHooks\\": "src/"
@@ -6794,7 +6800,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "hideuntildate"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6852,7 +6858,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\InformationCollectionBundle\\": "bundle"
@@ -6995,7 +7001,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\": "lib/",
@@ -7058,7 +7064,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\Standard\\": "lib/",
@@ -7110,7 +7116,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\LayoutsUIBundle\\": "bundle/"
@@ -7159,7 +7165,7 @@
                     "dev-master": "1.8.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -7208,7 +7214,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\MetadataBundle\\": "bundle/"
@@ -7258,7 +7264,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ngclasslist"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -7301,7 +7307,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ngsymfonytools"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -7351,7 +7357,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\OpenGraphBundle\\": "bundle"
@@ -7413,7 +7419,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "QueryTranslator\\": "lib"
@@ -7488,7 +7494,7 @@
                 },
                 "ezpublish-legacy-dir": "ezpublish_legacy"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\RemoteMediaBundle\\": "bundle"
@@ -7557,7 +7563,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\RichTextDataTypeBundle\\": ""
@@ -7613,7 +7619,7 @@
                     "dev-master": "1.5.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\SiteGeneratorBundle\\": "bundle/"
@@ -7662,7 +7668,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\SiteInstallerBundle\\": "bundle/"
@@ -7714,7 +7720,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\SiteAccessRoutesBundle\\": ""
@@ -7765,7 +7771,7 @@
                 "bin/php-parse"
             ],
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PhpParser\\": "lib/PhpParser"
@@ -7824,7 +7830,7 @@
                     "dev-master": "4.2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Version\\": "src/"
@@ -7894,7 +7900,7 @@
                     "dev-master": "1.8-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Nyholm\\Psr7\\": "src/"
@@ -7978,7 +7984,7 @@
             },
             "time": "2022-03-05T18:43:14+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "ProxyManager\\": "src/ProxyManager"
@@ -8091,7 +8097,7 @@
             },
             "time": "2021-08-02T12:11:02+00:00",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Oneup\\FlysystemBundle\\": ""
@@ -8173,7 +8179,7 @@
                     "dev-master": "0.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Overblog\\GraphiQLBundle\\": ""
@@ -8261,7 +8267,7 @@
                     "dev-master": "0.11-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Overblog\\GraphQLBundle\\": "src/",
@@ -8350,7 +8356,7 @@
             },
             "time": "2022-03-03T00:01:24+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Pagerfanta\\": "lib/Core/",
@@ -8418,7 +8424,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -8478,7 +8484,7 @@
             },
             "time": "2022-02-21T01:04:05+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -8550,7 +8556,7 @@
                     "dev-master": "1.10.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Client\\Common\\": "src/"
@@ -8615,7 +8621,7 @@
             },
             "time": "2018-03-26T19:21:48+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Client\\Curl\\": "src/"
@@ -8688,7 +8694,7 @@
                 "class": "Http\\Discovery\\Composer\\Plugin",
                 "plugin-optional": true
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Discovery\\": "src/"
@@ -8756,7 +8762,7 @@
                     "dev-master": "1.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Client\\": "src/"
@@ -8855,7 +8861,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\HttplugBundle\\": "src/"
@@ -8928,7 +8934,7 @@
                     "dev-master": "1.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Client\\Common\\Plugin\\": "src/"
@@ -8998,7 +9004,7 @@
             },
             "time": "2024-10-02T11:34:13+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/filters.php"
@@ -9056,7 +9062,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Message\\": "src/"
@@ -9112,7 +9118,7 @@
             },
             "time": "2024-03-15T13:55:21+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Promise\\": "src/"
@@ -9169,7 +9175,7 @@
             },
             "time": "2025-12-09T12:30:02+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Http\\Client\\Common\\Plugin\\": "src/"
@@ -9219,7 +9225,7 @@
             },
             "time": "2016-09-17T00:15:18+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PhpLang\\": "src/"
@@ -9276,7 +9282,7 @@
             },
             "time": "2018-11-22T23:07:24+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "PHPExcel": "Classes/"
@@ -9350,7 +9356,7 @@
             "extra": {
                 "class": "PHPStan\\ExtensionInstaller\\Plugin"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PHPStan\\ExtensionInstaller\\": "src/"
@@ -9485,7 +9491,7 @@
                     ]
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PHPStan\\": "src/"
@@ -9553,7 +9559,7 @@
                     ]
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "PHPStan\\": "src/"
@@ -9621,7 +9627,7 @@
                     "dev-main": "9.2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -9686,7 +9692,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -9753,7 +9759,7 @@
                     "dev-master": "3.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -9815,7 +9821,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -9877,7 +9883,7 @@
                     "dev-master": "5.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -9969,7 +9975,7 @@
                     "dev-master": "9.6-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/Framework/Assert/Functions.php"
@@ -10052,7 +10058,7 @@
             },
             "time": "2022-01-05T17:46:08+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Predis\\": "src/"
@@ -10126,7 +10132,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Prime\\Bundle\\TranslationsBundle\\": "bundle"
@@ -10185,7 +10191,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Cache\\": "src/"
@@ -10232,7 +10238,7 @@
             },
             "time": "2021-11-05T16:50:12+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Container\\": "src/"
@@ -10289,7 +10295,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Client\\": "src/"
@@ -10345,7 +10351,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -10402,7 +10408,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -10458,7 +10464,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Link\\": "src/"
@@ -10514,7 +10520,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\Log\\": "Psr/Log/"
@@ -10567,7 +10573,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Psr\\SimpleCache\\": "src/"
@@ -10620,7 +10626,7 @@
             },
             "time": "2019-03-08T08:55:37+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/getallheaders.php"
@@ -10690,7 +10696,7 @@
                     "configFile": "conventional-commits.json"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Ramsey\\Collection\\": "src/"
@@ -10778,7 +10784,7 @@
                     "force-install": true
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -10849,7 +10855,7 @@
                     "forward-command": false
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "ScssPhp\\ScssPhp\\": "src/"
@@ -10888,17 +10894,17 @@
         },
         {
             "name": "se7enxweb/admin-ui-bundle",
-            "version": "v2.9.14",
-            "version_normalized": "2.9.14.0",
+            "version": "v2.9.15",
+            "version_normalized": "2.9.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/NetgenAdminUIBundle.git",
-                "reference": "7afc3b67167f14f07a527ed4824c318092f25fe2"
+                "reference": "48e47d5d0f051caea998db211b4940ad50e20e8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/7afc3b67167f14f07a527ed4824c318092f25fe2",
-                "reference": "7afc3b67167f14f07a527ed4824c318092f25fe2",
+                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/48e47d5d0f051caea998db211b4940ad50e20e8e",
+                "reference": "48e47d5d0f051caea998db211b4940ad50e20e8e",
                 "shasum": ""
             },
             "require": {
@@ -10916,14 +10922,14 @@
                 "matthiasnoback/symfony-dependency-injection-test": "^3.1",
                 "phpunit/phpunit": "^7.5"
             },
-            "time": "2026-02-15T07:17:52+00:00",
+            "time": "2026-02-18T15:08:42+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.9.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\AdminUIBundle\\": "bundle"
@@ -10950,7 +10956,7 @@
                 "netgen"
             ],
             "support": {
-                "source": "https://github.com/se7enxweb/NetgenAdminUIBundle/tree/v2.9.14"
+                "source": "https://github.com/se7enxweb/NetgenAdminUIBundle/tree/v2.9.15"
             },
             "install-path": "../se7enxweb/admin-ui-bundle"
         },
@@ -10978,7 +10984,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bccie"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -11070,7 +11076,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bcgooglesitemaps"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11150,7 +11156,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bcwebsitestatistics"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11237,7 +11243,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "birthday"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11326,7 +11332,7 @@
                     "dev-master": "2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Incenteev\\ParameterHandler\\": ""
@@ -11390,7 +11396,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\ContentBrowser\\Ez\\": "lib/",
@@ -11474,7 +11480,7 @@
                     "dev-master": "2.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Bundle\\DoctrineBundle\\": ""
@@ -11570,7 +11576,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\DoctrineSchema\\": "src/lib",
@@ -11611,7 +11617,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "enhancedezbinaryfile"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11696,7 +11702,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "enhancedselection2"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -11838,7 +11844,7 @@
                 },
                 "symfony-assets-install": "relative"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "autoload.php"
@@ -11912,7 +11918,7 @@
                     "dev-master": "2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "eZ\\Publish\\Composer": "src/"
@@ -11980,7 +11986,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Lolautruche\\EzCoreExtraBundle\\": ""
@@ -12036,7 +12042,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzSupportToolsBundle\\": ""
@@ -12081,7 +12087,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezautosave"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -12157,7 +12163,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezdemo"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12229,7 +12235,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezflow"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12301,7 +12307,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezgmaplocation"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12368,7 +12374,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezie"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12435,7 +12441,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezmbpaex"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -12525,7 +12531,7 @@
             "extra": {
                 "ezpublish-legacy-dir": "vendor/ezsystems/ezpublish-legacy"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Kaliop\\eZMigrationBundle\\": ""
@@ -12586,7 +12592,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezmultiupload"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12653,7 +12659,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezodf"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12721,7 +12727,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezpaypal"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12837,7 +12843,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Ibexa\\AdminUi\\": "src/lib/",
@@ -12875,7 +12881,7 @@
             },
             "time": "2025-08-25T10:21:08+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformAdminUiAssetsBundle\\": "/"
@@ -12924,7 +12930,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformAdminUiModulesBundle\\": "/"
@@ -12977,7 +12983,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformCoreBundle\\": "src/EzPlatformCoreBundle/bundle/",
@@ -13034,7 +13040,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformCronBundle\\": "src/bundle"
@@ -13093,7 +13099,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformDesignEngine\\": "lib",
@@ -13159,7 +13165,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Ibexa\\GraphQL\\": "src",
@@ -13220,7 +13226,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\PlatformHttpCacheBundle\\": "src",
@@ -13283,7 +13289,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformRichText\\": "src/lib",
@@ -13339,7 +13345,7 @@
                     "dev-1.14": "1.15-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\EzPlatformSearchExtra\\": "lib",
@@ -13402,7 +13408,7 @@
                     "dev-master": "3.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\EzPlatformSiteApi\\": "lib",
@@ -13457,7 +13463,7 @@
                     "dev-master": "1.7.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformSolrSearchEngine\\": "lib",
@@ -13518,7 +13524,7 @@
                 },
                 "_ezplatform_branch_for_behat_tests": "2.5"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformStandardDesignBundle\\": "src/bundle"
@@ -13569,7 +13575,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\EzPlatformUser\\": "src/lib/",
@@ -13620,7 +13626,7 @@
                     "dev-master": "1.9.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "eZ\\Publish\\Core\\FieldType\\XmlText\\": "lib/FieldType/XmlText",
@@ -13670,7 +13676,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezprestapi"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -13760,7 +13766,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezprestapiprovider"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -13888,7 +13894,7 @@
                 "_ezplatform_branch_for_behat_tests": "2.5",
                 "_ezplatform_branch_for_behat_tests_comment_": "ezplatform branch to use to run Behat tests"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "eZ": ""
@@ -13967,7 +13973,7 @@
             "extra": {
                 "class": "eZ\\Publish\\Composer\\InstallerPlugin"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "eZ\\Publish\\Composer": "src/"
@@ -14048,7 +14054,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezstarrating"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14118,7 +14124,7 @@
                 },
                 "ezpublish-legacy-extension-name": "eztags"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14197,7 +14203,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezupdate"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14291,7 +14297,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezwebin"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14358,7 +14364,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezwt"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14441,7 +14447,7 @@
                     "dev-master": "1.6-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "FOS\\JsRoutingBundle\\": ""
@@ -14498,7 +14504,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "hcaptcha"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14606,7 +14612,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\Ez\\": "lib/",
@@ -14663,7 +14669,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\Ez\\RelationListQuery\\": "lib/",
@@ -14725,7 +14731,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\Ez\\SiteApi\\": "lib/",
@@ -14782,7 +14788,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\Ez\\TagsQuery\\": "lib/",
@@ -14841,7 +14847,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Layouts\\RemoteMedia\\": "lib/",
@@ -14903,7 +14909,7 @@
                 },
                 "ezpublish-legacy-dir": "ezpublish_legacy"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "eZ\\Publish\\Core\\MVC\\Legacy\\": "mvc",
@@ -14994,7 +15000,7 @@
             },
             "time": "2023-11-14T07:59:41+00:00",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Liip\\ImagineBundle\\": ""
@@ -15055,7 +15061,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "nxc_powercontent"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15143,7 +15149,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "owsimpleoperator"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15236,7 +15242,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "recaptcha"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15317,7 +15323,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Netgen\\Bundle\\RemoteMediaBundle": ""
@@ -15391,7 +15397,7 @@
                 "_ezplatform_branch_for_behat_tests": "2.5",
                 "_ezplatform_branch_for_behat_tests_comment_": "ezplatform branch to use to run Behat tests"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\RepositoryForms\\": "lib",
@@ -15441,7 +15447,7 @@
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\RichTextDataTypeBundle\\": ""
@@ -15522,7 +15528,7 @@
                     "dev-master": "5.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Sensio\\Bundle\\DistributionBundle\\": ""
@@ -15580,7 +15586,7 @@
                     "dev-master": "6.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "SensioLabs\\Security\\": "SensioLabs/Security"
@@ -15626,7 +15632,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "sevenx_themes_simple"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15684,17 +15690,17 @@
         },
         {
             "name": "se7enxweb/site-bundle",
-            "version": "v1.7.4",
-            "version_normalized": "1.7.4.0",
+            "version": "v1.7.5",
+            "version_normalized": "1.7.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/site-bundle.git",
-                "reference": "ed68c8eb979058151a42deac05d844a2a53978e9"
+                "reference": "3a37d88a7922ea896112e9496022f8315d4557a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/site-bundle/zipball/ed68c8eb979058151a42deac05d844a2a53978e9",
-                "reference": "ed68c8eb979058151a42deac05d844a2a53978e9",
+                "url": "https://api.github.com/repos/se7enxweb/site-bundle/zipball/3a37d88a7922ea896112e9496022f8315d4557a2",
+                "reference": "3a37d88a7922ea896112e9496022f8315d4557a2",
                 "shasum": ""
             },
             "require": {
@@ -15725,14 +15731,14 @@
                 "friendsofphp/php-cs-fixer": "^2.14.2",
                 "phpunit/phpunit": "^7.5.8"
             },
-            "time": "2026-02-13T02:33:33+00:00",
+            "time": "2026-02-15T12:33:57+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.7.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\SiteBundle\\": "bundle/"
@@ -15757,7 +15763,7 @@
                 "site-bundle"
             ],
             "support": {
-                "source": "https://github.com/se7enxweb/site-bundle/tree/v1.7.4"
+                "source": "https://github.com/se7enxweb/site-bundle/tree/v1.7.5"
             },
             "install-path": "../se7enxweb/site-bundle"
         },
@@ -15799,7 +15805,7 @@
                     "dev-master": "1.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\Bundle\\SiteLegacyBundle\\": "bundle/"
@@ -15845,7 +15851,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "swark"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -16013,7 +16019,7 @@
             "extra": {
                 "branch-version": "3.4"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Bundle\\": "src/Symfony/Bundle/",
@@ -16092,7 +16098,7 @@
             },
             "time": "2025-08-25T02:17:22+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Cache\\": ""
@@ -16164,7 +16170,7 @@
             },
             "time": "2022-09-01T18:18:29+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Mime\\": ""
@@ -16239,7 +16245,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "EzSystems\\SymfonyTools\\": "src/lib/",
@@ -16267,17 +16273,17 @@
         },
         {
             "name": "se7enxweb/tagsbundle",
-            "version": "v3.4.15",
-            "version_normalized": "3.4.15.0",
+            "version": "v3.4.16",
+            "version_normalized": "3.4.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/TagsBundle.git",
-                "reference": "a88081400ea56c52b0f6f21e123941f43bd1825a"
+                "reference": "601f660eb345aa75f1c2a06d10fba5c84aa31974"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/TagsBundle/zipball/a88081400ea56c52b0f6f21e123941f43bd1825a",
-                "reference": "a88081400ea56c52b0f6f21e123941f43bd1825a",
+                "url": "https://api.github.com/repos/se7enxweb/TagsBundle/zipball/601f660eb345aa75f1c2a06d10fba5c84aa31974",
+                "reference": "601f660eb345aa75f1c2a06d10fba5c84aa31974",
                 "shasum": ""
             },
             "require": {
@@ -16299,14 +16305,14 @@
             "suggest": {
                 "ezsystems/eztags-ls": "For editing eZ Tags content object and content class attributes in eZ Publish Legacy"
             },
-            "time": "2026-01-28T13:38:24+00:00",
+            "time": "2026-02-18T14:20:04+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "4.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Netgen\\TagsBundle\\": "bundle/"
@@ -16333,7 +16339,7 @@
                 "taxonomy"
             ],
             "support": {
-                "source": "https://github.com/se7enxweb/TagsBundle/tree/v3.4.15"
+                "source": "https://github.com/se7enxweb/TagsBundle/tree/v3.4.16"
             },
             "install-path": "../se7enxweb/tagsbundle"
         },
@@ -16372,7 +16378,7 @@
                     "dev-master": "2.16-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Twig_": "lib/"
@@ -16436,7 +16442,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "xrowextract"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -16507,7 +16513,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "xrowmetadata"
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -16593,7 +16599,7 @@
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16652,7 +16658,7 @@
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16711,7 +16717,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16771,7 +16777,7 @@
                     "dev-master": "4.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16859,7 +16865,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16919,7 +16925,7 @@
                     "dev-master": "4.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -16990,7 +16996,7 @@
                     "dev-master": "5.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17055,7 +17061,7 @@
                     "dev-master": "4.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17151,7 +17157,7 @@
                     "dev-master": "5.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17225,7 +17231,7 @@
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17286,7 +17292,7 @@
                     "dev-master": "4.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17344,7 +17350,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17402,7 +17408,7 @@
                     "dev-master": "4.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17480,7 +17486,7 @@
                     "dev-main": "3.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17537,7 +17543,7 @@
                     "dev-master": "3.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17593,7 +17599,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -17649,7 +17655,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "SebastianFeldmann\\Camino\\": "src/"
@@ -17711,7 +17717,7 @@
                     "dev-master": "3.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "SebastianFeldmann\\Cli\\": "src/"
@@ -17776,7 +17782,7 @@
                     "dev-master": "4.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "SebastianFeldmann\\Git\\": "src/"
@@ -17862,7 +17868,7 @@
                     "dev-master": "5.4.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Sensio\\Bundle\\FrameworkExtraBundle\\": ""
@@ -17925,7 +17931,7 @@
                     "dev-master": "3.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Sensio\\Bundle\\GeneratorBundle\\": ""
@@ -17984,7 +17990,7 @@
                     "dev-master": "6.0-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "SensioLabs\\Security\\": "SensioLabs/Security"
@@ -18124,7 +18130,7 @@
                     "dev-master": "2.5.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -18227,7 +18233,7 @@
                     "releases/3.2.x": "3.2.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Sentry\\SentryBundle\\": "src/"
@@ -18324,7 +18330,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Snc\\RedisBundle\\": ""
@@ -18384,7 +18390,7 @@
             },
             "time": "2025-03-10T08:22:10+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Swaggest\\JsonDiff\\": "src/"
@@ -18437,7 +18443,7 @@
             },
             "time": "2024-12-22T21:18:27+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Swaggest\\JsonSchema\\": "src/"
@@ -18497,7 +18503,7 @@
                     "dev-master": "6.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "lib/swift_required.php"
@@ -18578,7 +18584,7 @@
                     "dev-master": "2.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Cmf\\Component\\Routing\\": "src/"
@@ -18653,7 +18659,7 @@
                     "dev-master": "2.8-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Bundle\\AsseticBundle\\": ""
@@ -18713,7 +18719,7 @@
                     "dev-main": "2.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "function.php"
@@ -18801,7 +18807,7 @@
             },
             "time": "2024-11-28T08:37:04+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\HttpClient\\": ""
@@ -18880,7 +18886,7 @@
                     "dev-main": "2.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\HttpClient\\": ""
@@ -18967,7 +18973,7 @@
             },
             "time": "2022-09-01T18:18:29+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Mime\\": ""
@@ -19050,7 +19056,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Bundle\\MonologBundle\\": ""
@@ -19138,7 +19144,7 @@
                     "name": "phpunit/phpunit"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19212,7 +19218,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19299,7 +19305,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19385,7 +19391,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19469,7 +19475,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19554,7 +19560,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19646,7 +19652,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19735,7 +19741,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -19827,7 +19833,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -20115,7 +20121,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -20198,7 +20204,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -20291,7 +20297,7 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -20382,7 +20388,7 @@
                     "dev-main": "2.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\Service\\": ""
@@ -20464,7 +20470,7 @@
             },
             "time": "2025-11-21T18:03:05+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "Resources/functions.php"
@@ -20564,7 +20570,7 @@
                     "dev-master": "3.3-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Bundle\\SwiftmailerBundle\\": ""
@@ -20623,7 +20629,7 @@
                     "dev-main": "1.4-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Thanks\\": "src"
@@ -20696,7 +20702,7 @@
                     "dev-main": "2.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\Translation\\": ""
@@ -20782,7 +20788,7 @@
                     "name": "symfony/webpack-encore"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Symfony\\WebpackEncoreBundle\\": "src"
@@ -20842,7 +20848,7 @@
             },
             "time": "2025-11-17T20:03:58+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -20904,7 +20910,7 @@
                     "dev-master": "1.5-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Twig_Extensions_": "lib/"
@@ -20967,7 +20973,7 @@
                     "dev-release-1.0": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Webimpress\\SafeWriter\\": "src/"
@@ -21034,7 +21040,7 @@
             },
             "time": "2020-07-02T05:49:25+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "GraphQL\\": "src/"
@@ -21099,7 +21105,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "WhiteOctober\\PagerfantaBundle\\": ""
@@ -21172,7 +21178,7 @@
                     "dev-master": "2.7-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Bazinga\\Bundle\\JsTranslationBundle\\": ""
@@ -21223,7 +21229,7 @@
             },
             "time": "2014-01-20T22:35:06+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "JsonpCallbackValidator": "src/"
@@ -21276,7 +21282,7 @@
             },
             "time": "2026-02-09T21:03:14+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "library/HTMLPurifier/"
@@ -21334,7 +21340,7 @@
             },
             "time": "2023-02-23T19:38:49+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21408,7 +21414,7 @@
             },
             "time": "2025-09-11T14:11:07+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21482,7 +21488,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21555,7 +21561,7 @@
             },
             "time": "2025-11-12T16:37:32+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21628,7 +21634,7 @@
             },
             "time": "2024-10-04T15:46:12+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21704,7 +21710,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21778,7 +21784,7 @@
             },
             "time": "2024-10-04T15:51:48+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21853,7 +21859,7 @@
             },
             "time": "2025-11-12T16:58:24+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -21935,7 +21941,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22008,7 +22014,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22082,7 +22088,7 @@
             },
             "time": "2025-11-12T17:17:24+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22155,7 +22161,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22230,7 +22236,7 @@
             },
             "time": "2024-10-04T16:14:54+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22304,7 +22310,7 @@
             },
             "time": "2025-03-17T11:33:59+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22384,7 +22390,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22443,7 +22449,7 @@
             },
             "time": "2024-10-04T16:18:26+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22506,7 +22512,7 @@
             },
             "time": "2021-03-26T10:30:29+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22582,7 +22588,7 @@
             },
             "time": "2014-09-27T19:26:09+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22656,7 +22662,7 @@
             },
             "time": "2023-08-18T12:36:18+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"
@@ -22729,7 +22735,7 @@
             },
             "time": "2014-09-27T19:26:10+00:00",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "classmap": [
                     "src"

@@ -126,20 +126,6 @@ class AppVariable
             throw new \RuntimeException('The "app.environment" variable is not available.');
         }
 
-        // Override environment for staging/beta hosts to enable dev features
-        if (null !== $this->requestStack) {
-            try {
-                if ($request = $this->requestStack->getCurrentRequest()) {
-                    $host = $request->getHost();
-                    if (strpos($host, 'alpha') !== false || strpos($host, 'beta') !== false) {
-                        return 'dev';
-                    }
-                }
-            } catch (\Exception $e) {
-                // Fall through to normal behavior
-            }
-        }
-
         return $this->environment;
     }
 

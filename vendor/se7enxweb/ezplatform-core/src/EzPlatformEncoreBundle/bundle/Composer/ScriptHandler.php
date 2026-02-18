@@ -33,8 +33,6 @@ class ScriptHandler
 
         $command = [
             $php,
-            '-d',
-            'memory_limit=5000M',
             $console,
             CompileAssetsCommand::COMMAND_NAME,
         ];

@@ -1,28 +1,14 @@
 /* global Swiper, PhotoSwipe, PhotoSwipeLightbox */
 
-const initGalleryLightbox = () => {
-  if (typeof PhotoSwipeLightbox === 'undefined' || typeof PhotoSwipe === 'undefined') {
-    // Retry in 100ms if libraries not loaded yet
-    setTimeout(initGalleryLightbox, 100);
-    return;
-  }
-
-  document.querySelectorAll('.ngl-gallery .js-lightbox-enabled').forEach((element) => {
-    try {
-      const lightbox = new PhotoSwipeLightbox({
-        gallery: element,
-        children: '.js-lightbox-item',
-        pswpModule: PhotoSwipe,
-      });
-      lightbox.init();
-    } catch (error) {
-      console.warn('Failed to initialize lightbox:', error);
-    }
-  });
-};
-
 window.addEventListener('load', () => {
-  initGalleryLightbox();
+  document.querySelectorAll('.ngl-gallery .js-lightbox-enabled').forEach((element) => {
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: element,
+      children: '.js-lightbox-item',
+      pswpModule: PhotoSwipe,
+    });
+    lightbox.init();
+  });
 
   // Sushi swiper
   [...document.getElementsByClassName('sushi-swiper')].forEach((swiper, i) => {

@@ -3,7 +3,7 @@
         'name' => 'se7enxweb/cjw-exponential-platform-nexus',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'f690cba423e7a0badc1e6e3c7897b0b2c5a0aa74',
+        'reference' => 'af62dba244530f554559180566b3df0aec877e27',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(
@@ -136,9 +136,9 @@
             'dev_requirement' => false,
         ),
         'captainhook/captainhook' => array(
-            'pretty_version' => '5.28.1',
-            'version' => '5.28.1.0',
-            'reference' => '772fb74000ef6cb53c2aa45278baa261dc17c7eb',
+            'pretty_version' => '5.28.3',
+            'version' => '5.28.3.0',
+            'reference' => '5d35b249f3843ef36ead119f4347e649278ad6d8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../captainhook/captainhook',
             'aliases' => array(),
@@ -394,9 +394,9 @@
             'dev_requirement' => false,
         ),
         'erusev/parsedown' => array(
-            'pretty_version' => '1.7.4',
-            'version' => '1.7.4.0',
-            'reference' => 'cb17b6477dfff935958ba01325f2e8a2bfa6dab3',
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'reference' => '96baaad00f71ba04d76e45b4620f54d3beabd6f7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../erusev/parsedown',
             'aliases' => array(),
@@ -1374,8 +1374,8 @@
         'php-http/async-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'php-http/client-common' => array(
@@ -1390,8 +1390,8 @@
         'php-http/client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'php-http/curl-client' => array(
@@ -1665,9 +1665,9 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.0',
+                0 => '*',
                 1 => '1.0',
-                2 => '*',
+                2 => '^1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -1682,8 +1682,8 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'psr/link' => array(
@@ -1713,8 +1713,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0.0',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '1.0.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1775,9 +1775,9 @@
             'dev_requirement' => false,
         ),
         'se7enxweb/admin-ui-bundle' => array(
-            'pretty_version' => 'v2.9.14',
-            'version' => '2.9.14.0',
-            'reference' => '7afc3b67167f14f07a527ed4824c318092f25fe2',
+            'pretty_version' => 'v2.9.15',
+            'version' => '2.9.15.0',
+            'reference' => '48e47d5d0f051caea998db211b4940ad50e20e8e',
             'type' => 'ezplatform-bundle',
             'install_path' => __DIR__ . '/../se7enxweb/admin-ui-bundle',
             'aliases' => array(),
@@ -1822,7 +1822,7 @@
         'se7enxweb/cjw-exponential-platform-nexus' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'f690cba423e7a0badc1e6e3c7897b0b2c5a0aa74',
+            'reference' => 'af62dba244530f554559180566b3df0aec877e27',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(
@@ -2391,9 +2391,9 @@
             'dev_requirement' => false,
         ),
         'se7enxweb/site-bundle' => array(
-            'pretty_version' => 'v1.7.4',
-            'version' => '1.7.4.0',
-            'reference' => 'ed68c8eb979058151a42deac05d844a2a53978e9',
+            'pretty_version' => 'v1.7.5',
+            'version' => '1.7.5.0',
+            'reference' => '3a37d88a7922ea896112e9496022f8315d4557a2',
             'type' => 'ezplatform-bundle',
             'install_path' => __DIR__ . '/../se7enxweb/site-bundle',
             'aliases' => array(),
@@ -2454,9 +2454,9 @@
             'dev_requirement' => false,
         ),
         'se7enxweb/tagsbundle' => array(
-            'pretty_version' => 'v3.4.15',
-            'version' => '3.4.15.0',
-            'reference' => 'a88081400ea56c52b0f6f21e123941f43bd1825a',
+            'pretty_version' => 'v3.4.16',
+            'version' => '3.4.16.0',
+            'reference' => '601f660eb345aa75f1c2a06d10fba5c84aa31974',
             'type' => 'ezplatform-bundle',
             'install_path' => __DIR__ . '/../se7enxweb/tagsbundle',
             'aliases' => array(),
@@ -2698,7 +2698,7 @@
             'version' => '2.2.0.0',
             'reference' => '089858b1b27d3705a5fd1c32d8d10beb55980190',
             'type' => 'metapackage',
-            'install_path' => NULL,
+            'install_path' => null,
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -3073,7 +3073,7 @@
             'version' => '1.20.0.0',
             'reference' => '54b8cd7e6c1643d78d011f3be89f3ef1f9f4c675',
             'type' => 'metapackage',
-            'install_path' => NULL,
+            'install_path' => null,
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -3082,7 +3082,7 @@
             'version' => '1.20.0.0',
             'reference' => '5f03a781d984aae42cebd18e7912fa80f02ee644',
             'type' => 'metapackage',
-            'install_path' => NULL,
+            'install_path' => null,
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -3091,7 +3091,7 @@
             'version' => '1.31.0.0',
             'reference' => 'fa2ae56c44f03bed91a39bfc9822e31e7c5c38ce',
             'type' => 'metapackage',
-            'install_path' => NULL,
+            'install_path' => null,
             'aliases' => array(),
             'dev_requirement' => false,
         ),
