@@ -5,8 +5,8 @@ services:
     netgen_admin_ui.configuration:
         class: Netgen\Bundle\AdminUIBundle\Service\AdminUIConfiguration
         arguments:
-            - 
-                admin_group_names: 
+            -
+                admin_group_names:
                     - admin_group
                     - ngadmin_group
                     - legacy_group
@@ -31,16 +31,6 @@ services:
                 design_location: 58
                 users_location: 5
 
-    netgen_admin_ui.event_listener.navigation_interceptor:
-        class: Netgen\Bundle\AdminUIBundle\EventListener\NavigationInterceptor
-        arguments:
-            - "@controller_resolver"
-            - "$is_admin_ui_siteaccess;netgen_admin_ui$"
-            - "$legacy_routes;netgen_admin_ui$"
-            - "@netgen_admin_ui.configuration"  # Configuration service
-        tags:
-            - { name: kernel.event_subscriber }
-
     netgen_admin_ui.event_listener.security:
         class: Netgen\Bundle\AdminUIBundle\EventListener\SecurityListener
         # public: false
@@ -50,26 +40,6 @@ services:
             - "@ezpublish.config.resolver"
             - "@security.token_storage"
             - "@security.authorization_checker"
-        tags:
-            - { name: kernel.event_subscriber }
-
-    netgen_admin_ui.event_listener.legacy_exception:
-        class: Netgen\Bundle\AdminUIBundle\EventListener\LegacyExceptionListener
-        # public: false
-        arguments:
-            - "$is_admin_ui_siteaccess;netgen_admin_ui$"
-        tags:
-            - { name: kernel.event_subscriber }
-
-    netgen_admin_ui.event_listener.admin_security_and_access:
-        class: Netgen\Bundle\AdminUIBundle\EventListener\AdminSecurityAndAccessListener
-        # Siteaccess-based authentication (no hostname checking)
-        arguments:
-            - "%ezpublish.siteaccess.groups%"  # siteaccessGroups - contains admin_group, ngadmin_group, legacy_group
-            - "@netgen_admin_ui.configuration"  # Configuration service
-            - "@security.token_storage"  # TokenStorageInterface for authentication validation
-            - "@logger"  # PSR-3 LoggerInterface for Symfony-compliant logging
-        lazy: true
         tags:
             - { name: kernel.event_subscriber }
 
@@ -99,16 +69,10 @@ services:
             - "@ngsite.controller.search"
             - "@ezpublish_legacy.controller"
 
-    admin_ui.security.authentication_success_handler:
-        class: Netgen\Bundle\AdminUIBundle\Security\AdminUILoginRedirectAuthenticationSuccessHandler
-        public: true
+    netgen_admin_ui.event_listener.legacy_exception:
+        class: Netgen\Bundle\AdminUIBundle\EventListener\LegacyExceptionListener
+        # public: false
         arguments:
-            - '@router'
-            - '%ezpublish.siteaccess.groups%'
-
-    netgen_admin_ui.security.siteaccess_request_matcher:
-        class: Netgen\Bundle\AdminUIBundle\Security\AdminUISiteaccessRequestMatcher
-        public: true
-        arguments:
-            - '%ezpublish.siteaccess.groups%'
-
+            - "$is_admin_ui_siteaccess;netgen_admin_ui$"
+        tags:
+            - { name: kernel.event_subscriber }
