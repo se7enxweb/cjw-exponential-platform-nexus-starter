@@ -22,6 +22,7 @@ ezpublish:
             Map\URI:
                 en : en
                 de : de
+                legacy_admin: legacy_admin
             # 7x + Cjw Documentation: This definition is vital to uncached hosts feature of AppCache (in Nexus).
             # The mappping of hostnames to siteaccesses is used by AppCache to determine whether a request should be cached or remain private
             # This mapping is used to detect which siteaccess is handling each request
@@ -33,7 +34,6 @@ ezpublish:
                 legacy.platform.cjw.demo.se7enx.com: legacy_admin
                 editor.platform.cjw.demo.se7enx.com: legacy_admin
                 nga.platform.cjw.demo.se7enx.com: ngadminui
-
     system:
         frontend_group:
             translation_siteaccesses:
@@ -100,6 +100,8 @@ ezpublish:
             languages:
                 - ger-DE
                 - eng-GB
+            session:
+                name: eZSESSID
             user:
                 layout: '@EzPlatformAdminUiBundle/layout.html.twig'
 netgen_layouts:
@@ -129,6 +131,11 @@ ezdesign:
             - common
         ngadminui:
             - ngadminui
+            - common
+        legacy_admin:
+            - admin3
+            - admin
+            - standard
             - common
 
 ez_publish_legacy:
