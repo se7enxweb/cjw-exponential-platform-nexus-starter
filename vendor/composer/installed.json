@@ -10899,12 +10899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/NetgenAdminUIBundle.git",
-                "reference": "f0c7de5ea3d611ba2279ef4575982adb8aa09d3e"
+                "reference": "7dbc0b6814daefccd863891c77f09ef4e764659a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/f0c7de5ea3d611ba2279ef4575982adb8aa09d3e",
-                "reference": "f0c7de5ea3d611ba2279ef4575982adb8aa09d3e",
+                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/7dbc0b6814daefccd863891c77f09ef4e764659a",
+                "reference": "7dbc0b6814daefccd863891c77f09ef4e764659a",
                 "shasum": ""
             },
             "require": {
@@ -10922,7 +10922,7 @@
                 "matthiasnoback/symfony-dependency-injection-test": "^3.1",
                 "phpunit/phpunit": "^7.5"
             },
-            "time": "2026-02-25T03:37:47+00:00",
+            "time": "2026-02-25T06:01:55+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
