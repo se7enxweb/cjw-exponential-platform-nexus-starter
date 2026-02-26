@@ -16,6 +16,7 @@ ShowHiddenNodes=true
 SiteDesign=admin3
 AdditionalSiteDesignList[]
 AdditionalSiteDesignList[]=admin3
+AdditionalSiteDesignList[]=admin2
 AdditionalSiteDesignList[]=admin
 AdditionalSiteDesignList[]=standard
 AdditionalSiteDesignList[]=base

@@ -2,6 +2,8 @@
 
 [VersionView]
 AvailableSiteDesignList[]
+AvailableSiteDesignList[]=admin3
 AvailableSiteDesignList[]=admin2
 AvailableSiteDesignList[]=admin
+
 */ ?>

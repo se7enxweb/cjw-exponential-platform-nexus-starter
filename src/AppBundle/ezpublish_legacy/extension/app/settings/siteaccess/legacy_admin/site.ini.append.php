@@ -16,12 +16,22 @@ ShowHiddenNodes=true
 SiteDesign=admin3
 AdditionalSiteDesignList[]
 AdditionalSiteDesignList[]=admin3
+AdditionalSiteDesignList[]=admin2
 AdditionalSiteDesignList[]=admin
 AdditionalSiteDesignList[]=ezdemo
 
 [RegionalSettings]
-Locale=ger-DE
-ContentObjectLocale=ger-DE
+# The following setting controls the 7x NG Admin UI language. 
+# It is set to English by default, but can be switched to 
+# German or any other language supported by Exponential.
+# Locale=ger-DE
+Locale=eng-GB
+# The following setting controls the content object locale
+# (i.e. language of default content). 
+# It is set to English by default, but can be switched to 
+# German or any other language supported by Exponential.
+# ContentObjectLocale=ger-DE
+ContentObjectLocale=eng-GB
 ShowUntranslatedObjects=enabled
 SiteLanguageList[]
 SiteLanguageList[]=ger-DE
@@ -30,4 +40,5 @@ TextTranslation=enabled
 [ContentSettings]
 CachedViewPreferences[full]=admin_navigation_content=1;admin_children_viewmode=list;admin_list_limit=1
 TranslationList=
+
 */ ?>

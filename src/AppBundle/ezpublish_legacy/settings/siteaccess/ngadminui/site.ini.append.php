@@ -16,6 +16,7 @@ ShowHiddenNodes=true
 [DesignSettings]
 SiteDesign=ngadminui
 AdditionalSiteDesignList[]
+AdditionalSiteDesignList[]=admin3
 AdditionalSiteDesignList[]=admin2
 AdditionalSiteDesignList[]=admin
 AdditionalSiteDesignList[]=standard
