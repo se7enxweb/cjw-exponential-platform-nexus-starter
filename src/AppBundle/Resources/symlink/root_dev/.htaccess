@@ -107,4 +107,8 @@ RewriteRule ^robots\.txt - [L]
 RewriteRule ^bundles/ - [L]
 RewriteRule ^assets/ - [L]
 
+# If you don't need the _fragment controller you can secure your site in .htaccess with
+# Blockiere alle direkten Zugriffe auf /_fragment von außen
+RewriteRule ^_fragment - [F]
+
 RewriteRule .* app\.php
