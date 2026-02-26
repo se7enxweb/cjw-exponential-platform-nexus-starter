@@ -3,7 +3,7 @@
         'name' => 'se7enxweb/cjw-exponential-platform-nexus',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '9ec43267299f5bba6ccf6271f76846c0eb5c88d1',
+        'reference' => '0ab4ad4d92a650813c3cfd9dedae98baf8348995',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(
@@ -1777,7 +1777,7 @@
         'se7enxweb/admin-ui-bundle' => array(
             'pretty_version' => 'v2.9.15',
             'version' => '2.9.15.0',
-            'reference' => 'a44a703fc867829d31501360ff357594b6f660ab',
+            'reference' => 'eca27758c407cc3611b902a65742232b51f58fdd',
             'type' => 'ezplatform-bundle',
             'install_path' => __DIR__ . '/../se7enxweb/admin-ui-bundle',
             'aliases' => array(),
@@ -1822,7 +1822,7 @@
         'se7enxweb/cjw-exponential-platform-nexus' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '9ec43267299f5bba6ccf6271f76846c0eb5c88d1',
+            'reference' => '0ab4ad4d92a650813c3cfd9dedae98baf8348995',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(
