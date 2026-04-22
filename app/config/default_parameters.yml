@@ -19,6 +19,9 @@ parameters:
     # Needed by Doctrine Bundle / ORM to avoid it opening connection during situations where there is no service yet.
     # See: https://symfony.com/doc/current/reference/configuration/doctrine.html
     database_version: '%env(DATABASE_VERSION)%'
+    # Path to SQLite database file; only used when database_driver is pdo_sqlite.
+    # Defaults to var/data_{env}.db (e.g. var/data_prod.db). Override with DATABASE_PATH env var.
+    database_path: '%kernel.project_dir%/var/data_%kernel.environment%.db'
 
     # Setting for mail system, used by SwiftMailer
     mailer_host: '%env(MAILER_HOST)%'
@@ -134,6 +137,9 @@ parameters:
     admin_group_name: admin_group
     # Frontend siteaccess group name
     frontend_group_name: frontend_group
+
+    # ngsite location IDs — override in parameters.yml or via the installer prompt
+    ngsite.default.locations.tree_root.id: 168
 
     # Varnish invalidation/purge token (for use on platform.sh, eZ Platform Cloud and other places you can't use IP for ACL)
     varnish_invalidate_token: '%env(HTTPCACHE_VARNISH_INVALIDATE_TOKEN)%'

@@ -1,4 +1,4 @@
-# Exponential Platform Nexus 1.0.0.0.3 INSTALL Instructions
+# Exponential Platform Nexus 1.0.0.x INSTALL Instructions
 
 ## Requirements
 
@@ -209,6 +209,14 @@ ln -s ../../../src/AppBundle/ezpublish_legacy/extension/app .;
 cd ../../../;
 ```
 
+### Install `ngadminui` ezpublish_legacy extension (Required by 7x admin-ui-bundle/ngadminui).
+
+```shell
+cd ezpublish_legacy/extension/;
+ln -s ../../../vendor/se7enxweb/admin-ui-bundle/bundle/ezpublish_legacy/ngadminui .;
+cd ../../../;
+```
+
 ### Install `app storage dir symlink` in var siteaccess dir
 
 ```shell
@@ -278,7 +286,7 @@ CREATE DATABASE <db_name> CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_general_
 ## Install Exponential Platform Nexus required PHP libraries like Zeta Components and Exponential Platform Bundles and Bundle extensions as specified in this project's composer.json.
 
 ```shell
-cd www-root-directory; composer create-project se7enxweb/exponential-platform-nexus:v1.0.0.0.3 --ignore-platform-reqs;
+cd www-root-directory; composer create-project se7enxweb/exponential-platform-nexus:v1.0.0.x-dev --ignore-platform-reqs;
 ```
 
 Note: For the short term future the composer argument '--ignore-platform-reqs' is required to install the software via composer package dependencies successfully. This limitation will soon be removed in the future as we continue to update requirements within the composer package definition files for each package repostiory (tedious detail oriented work which is ongoing).
