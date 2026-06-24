@@ -3,7 +3,7 @@
         'name' => 'se7enxweb/cjw-exponential-platform-nexus',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '985f7278fc6fdb145739def14c212235155251ce',
+        'reference' => '18f3563b041855e683d0343fccc19fb23f64b88e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(
@@ -1828,7 +1828,7 @@
         'se7enxweb/cjw-exponential-platform-nexus' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '985f7278fc6fdb145739def14c212235155251ce',
+            'reference' => '18f3563b041855e683d0343fccc19fb23f64b88e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(
@@ -2240,6 +2240,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'se7enxweb/git_manager' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => 'c30a9cab2794721d21369e781f20f8621c13d98f',
+            'type' => 'ezpublish-legacy-extension',
+            'install_path' => __DIR__ . '/../../ezpublish_legacy/extension/git_manager',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'se7enxweb/hcaptcha' => array(
             'pretty_version' => 'v1.0',
             'version' => '1.0.0.0',
@@ -2381,6 +2390,15 @@
             'reference' => '09a3e8ef4a6db72ff6169a395ec55da6dbb324d6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../se7enxweb/sensiolabs-security-checker',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'se7enxweb/sevenx_dse' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'baa6a744d73762385ba3e35af3c82c163d40d3e1',
+            'type' => 'ezpublish-legacy-extension',
+            'install_path' => __DIR__ . '/../../ezpublish_legacy/extension/sevenx_dse',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

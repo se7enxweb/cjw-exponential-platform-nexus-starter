@@ -14487,6 +14487,93 @@
             "install-path": "../se7enxweb/friendsofsymfony-jsrouting-bundle"
         },
         {
+            "name": "se7enxweb/git_manager",
+            "version": "v2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/se7enxweb/git_manager.git",
+                "reference": "c30a9cab2794721d21369e781f20f8621c13d98f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/se7enxweb/git_manager/zipball/c30a9cab2794721d21369e781f20f8621c13d98f",
+                "reference": "c30a9cab2794721d21369e781f20f8621c13d98f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0",
+                "se7enxweb/ezpublish-legacy-installer": "*"
+            },
+            "time": "2026-06-22T06:45:44+00:00",
+            "type": "ezpublish-legacy-extension",
+            "extra": {
+                "ezpublish-legacy-extension-name": "git_manager"
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "7x",
+                    "email": "info@se7enx.com",
+                    "homepage": "https://se7enx.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Serhey Dolgushev",
+                    "homepage": "https://ua.linkedin.com/in/serheydolgushev",
+                    "role": "Author"
+                }
+            ],
+            "description": "Git Manager offers Local / remote branch checkout - Use this feature to update your website to the latest available commit in your git repository",
+            "homepage": "https://github.com/se7enxweb/git_manager",
+            "keywords": [
+                "eZ Publish Legacy",
+                "eZ Publish Platform",
+                "extension",
+                "ez publish",
+                "git",
+                "kernel updater",
+                "manager",
+                "module",
+                "vcs"
+            ],
+            "support": {
+                "issues": "https://github.com/se7enxweb/git_manager/issues",
+                "source": "https://github.com/se7enxweb/git_manager/tree/v2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../../ezpublish_legacy/extension/git_manager"
+        },
+        {
             "name": "se7enxweb/hcaptcha",
             "version": "v1.0",
             "version_normalized": "1.0.0.0",
@@ -15639,6 +15726,129 @@
                 "source": "https://github.com/se7enxweb/sensiolabs-security-checker/tree/v5.0.4"
             },
             "install-path": "../se7enxweb/sensiolabs-security-checker"
+        },
+        {
+            "name": "se7enxweb/sevenx_dse",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/se7enxweb/sevenx_dse.git",
+                "reference": "baa6a744d73762385ba3e35af3c82c163d40d3e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/se7enxweb/sevenx_dse/zipball/baa6a744d73762385ba3e35af3c82c163d40d3e1",
+                "reference": "baa6a744d73762385ba3e35af3c82c163d40d3e1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "7.1 - 8.5",
+                "se7enxweb/exponential-legacy-installer": "*"
+            },
+            "require-dev": {
+                "vrana/jsshrink": "@dev",
+                "vrana/jush": "@dev",
+                "vrana/phpshrink": "@dev"
+            },
+            "suggest": {
+                "ext-bz2": "Allows bzip2 compression of data export",
+                "ext-libxml": "Allows processing responses from SimpleDB database",
+                "ext-mongodb": "Allows access to MongoDB database",
+                "ext-mysql": "Allows access to MySQL database (old driver)",
+                "ext-mysqli": "Allows access to MySQL database",
+                "ext-oci8": "Allows access to Oracle database",
+                "ext-openssl": "Allows secure encryption of login information",
+                "ext-pdo": "PDO database interface",
+                "ext-pdo_dblib": "PDO driver for MS SQL database and Sybase",
+                "ext-pdo_oci": "PDO driver for Oracle database",
+                "ext-pdo_pgsql": "PDO driver for PostgreSQL database",
+                "ext-pdo_sqlite": "PDO driver for SQLite database",
+                "ext-pgsql": "Allows access to PostgreSQL database",
+                "ext-simplexml": "Allows access to SimpleDB database",
+                "ext-sqlite3": "Allows access to SQLite database",
+                "ext-sqlsrv": "Allows access to MS SQ database",
+                "ext-suhosin": "Enhace CSRF protection",
+                "ext-zip": "Allows ZIP compression of data export",
+                "ext-zlib": "Allows gzip compression of data export"
+            },
+            "time": "2026-04-23T10:12:33+00:00",
+            "type": "ezpublish-legacy-extension",
+            "extra": {
+                "ezpublish-legacy-extension-name": "sevenx_dse"
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "7x",
+                    "email": "info@se7enx.com",
+                    "homepage": "https://se7enx.com",
+                    "role": "7x DSE Author"
+                },
+                {
+                    "name": "Peter Knut",
+                    "role": "Original Core Author"
+                },
+                {
+                    "name": "Jakub Vrána",
+                    "homepage": "https://www.vrana.cz/",
+                    "role": "Original Core Author"
+                }
+            ],
+            "description": "sevenx_dse : 7x Database Source Editor — embeds AdminNeo as a direct database source editor inside the eZ Publish / Exponential Platform Legacy admin UI — providing raw SQL, table browsing, import/export, and multi-driver support (MySQL, SQLite) through a scoped, permission-gated interface.",
+            "homepage": "https://github.com/se7enxweb/sevenx_dse",
+            "keywords": [
+                "Exponential Platform",
+                "adminer",
+                "adminneo",
+                "database editor",
+                "database management",
+                "eZ Publish Legacy",
+                "extension",
+                "ez publish",
+                "module",
+                "mysql",
+                "postgresql",
+                "sql",
+                "sqlite",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/se7enxweb/sevenx_dse/issues",
+                "source": "https://github.com/se7enxweb/sevenx_dse/tree/v1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../../ezpublish_legacy/extension/sevenx_dse"
         },
         {
             "name": "se7enxweb/sevenx_themes_simple",

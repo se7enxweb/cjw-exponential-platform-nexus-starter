@@ -125,7 +125,9 @@
         "ezsystems/behatbundle": "^7.0",
         "netgen/richtext-datatype-bundle": "^1.1",
         "predis/predis": "^1.1",
-        "doctrine/cache": "^1.13.0"
+        "doctrine/cache": "^1.13.0",
+        "se7enxweb/git_manager": "^2.0",
+        "se7enxweb/sevenx_dse": "^1.0"
     },
     "require-dev": {
         "behat/behat": "^3.7.0",

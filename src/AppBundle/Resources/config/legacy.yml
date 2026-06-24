@@ -89,6 +89,8 @@ netgen_site_legacy:
                         - ngsite
                         - ngclasslist
                         - xrowmetadata
+                        - git_manager
+                        - sevenx_dse
                         - birthday
                         - hideuntildate
                         - ezclasslists
