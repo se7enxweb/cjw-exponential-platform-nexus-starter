@@ -107,7 +107,11 @@ class ConfigProcessCoordinator
 
         if (!self::$cache) {
             try {
-                $cacheDir = $symContainer->get("kernel")->getCacheDir()."/cjw/config-processor-bundle/";
+                $cacheDir = $symContainer->get("kernel")->getCacheDir()."/cjw/config-processor-bundle";
+                // Ensure the cache directory exists
+                if (!file_exists($cacheDir)) {
+                    @mkdir($cacheDir, 0777, true);
+                }
                 self::$cache = new PhpFilesAdapter("",0,$cacheDir);
             } catch (Exception $error) {
                 self::$cache = new PhpFilesAdapter();
@@ -393,7 +397,12 @@ class ConfigProcessCoordinator
     {
         // If there is no stored parameter list in object form, then undo the rest of the cache
         try {
-            self::$cache->prune();
+            // Prune the cache to remove expired items
+            try {
+                self::$cache->prune();
+            } catch (\Exception $e) {
+                // Silently ignore prune errors - cache directory might not exist yet
+            }
 
             if (!self::$cache->hasItem("cjw_processed_param_objects")) {
                 self::$cache->deleteItem("cjw_processed_params");

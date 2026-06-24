@@ -222,7 +222,11 @@ class ConfigPathUtility
     public static function setCacheDir($cacheDir)
     {
         if (is_dir($cacheDir)) {
-            self::$cacheDir = $cacheDir."/cjw/config-processor-bundle/";
+            self::$cacheDir = $cacheDir."/cjw/config-processor-bundle";
+            // Ensure the cache directory exists
+            if (!file_exists(self::$cacheDir)) {
+                @mkdir(self::$cacheDir, 0777, true);
+            }
         }
     }
 

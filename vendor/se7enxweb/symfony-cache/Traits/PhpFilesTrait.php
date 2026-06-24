@@ -38,6 +38,11 @@ trait PhpFilesTrait
      */
     public function prune()
     {
+        // Check if directory exists before attempting to iterate
+        if (!file_exists($this->directory) || !is_dir($this->directory)) {
+            return true;
+        }
+
         $time = time();
         $pruned = true;
         $allowCompile = 'cli' !== \PHP_SAPI || filter_var(ini_get('opcache.enable_cli'), \FILTER_VALIDATE_BOOLEAN);

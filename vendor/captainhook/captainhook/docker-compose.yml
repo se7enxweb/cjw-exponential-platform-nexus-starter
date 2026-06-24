@@ -1,0 +1,47 @@
+version: "3.7"
+
+services:
+  php8.0:
+    build: .docker/php8.0
+    container_name: captainhook-php8.0
+    environment:
+      - GIT_INDEX_FILE=${GIT_INDEX_FILE}
+    volumes:
+      - .:/docker:rw
+    tty: true
+
+  php8.1:
+    build: .docker/php8.1
+    container_name: captainhook-php8.1
+    environment:
+      - GIT_INDEX_FILE=${GIT_INDEX_FILE}
+    volumes:
+      - .:/docker:rw
+    tty: true
+
+  php8.2:
+    build: .docker/php8.2
+    container_name: captainhook-php8.2
+    environment:
+      - GIT_INDEX_FILE=${GIT_INDEX_FILE}
+    volumes:
+      - .:/docker:rw
+    tty: true
+
+  php8.3:
+    build: .docker/php8.3
+    container_name: captainhook-php8.3
+    environment:
+      - GIT_INDEX_FILE=${GIT_INDEX_FILE}
+    volumes:
+      - .:/docker:rw
+    tty: true
+
+  php8.4:
+    build: .docker/php8.4
+    container_name: captainhook-php8.4
+    environment:
+      - GIT_INDEX_FILE=${GIT_INDEX_FILE}
+    volumes:
+      - .:/docker:rw
+    tty: true

@@ -45,7 +45,11 @@ class FavouritesParamCoordinator
 
         if (!self::$cache) {
             try {
-                $cacheDir = $symContainer->get("kernel")->getCacheDir()."/cjw/config-processor-bundle/";
+                $cacheDir = $symContainer->get("kernel")->getCacheDir()."/cjw/config-processor-bundle";
+                // Ensure the cache directory exists
+                if (!file_exists($cacheDir)) {
+                    @mkdir($cacheDir, 0777, true);
+                }
                 self::$cache = new PhpFilesAdapter("",0,$cacheDir);
             } catch (Exception $error) {
                 self::$cache = new PhpFilesAdapter();

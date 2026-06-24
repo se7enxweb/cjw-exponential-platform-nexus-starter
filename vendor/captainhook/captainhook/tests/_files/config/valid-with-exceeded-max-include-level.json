@@ -1,0 +1,27 @@
+{
+  "config": {
+    "includes-level": 2,
+    "includes": [
+      "valid-with-includes.json",
+      "valid-nested-too-deep-include.json"
+    ]
+  },
+  "prepare-commit-msg": {
+    "enabled": true,
+    "actions": []
+  },
+  "commit-msg": {
+    "enabled": true,
+    "actions": []
+  },
+  "pre-commit": {
+    "enabled": true,
+    "actions": [
+      {"action": "psalm"}
+    ]
+  },
+  "pre-push": {
+    "enabled": false,
+    "actions": []
+  }
+}

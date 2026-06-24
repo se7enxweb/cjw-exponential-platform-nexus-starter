@@ -1,0 +1,66 @@
+{
+    "config": {
+        "verbosity": "normal",
+        "allow-failure": false,
+        "ansi-colors": true,
+        "git-directory": ".git",
+        "includes": [],
+        "run-mode": "local",
+        "plugins": [
+            {
+                "plugin": "\\CaptainHook\\App\\Plugin\\Hook\\PreserveWorkingTree"
+            }
+        ]
+    },
+    "pre-commit": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "CaptainHook.Tools.PHPLint"
+            },
+            {
+                "action": "tools/phpcs --standard=psr12 src"
+            },
+            {
+                "action": "CaptainHook.Tools.CheckComposerLockFile"
+            }
+        ]
+    },
+    "prepare-commit-msg": {
+        "enabled": true,
+        "actions": []
+    },
+    "commit-msg": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "CaptainHook.Message.MustFollowBeamsRules",
+                "options": {
+                    "subjectLength": 50,
+                    "bodyLineLength": 72
+                }
+            },
+            {
+                "action": "\\CaptainHook\\App\\Hook\\Message\\Action\\Rules",
+                "options": [
+                    "\\CaptainHook\\App\\Hook\\Message\\Rule\\MsgNotEmpty",
+                    "\\CaptainHook\\App\\Hook\\Message\\Rule\\CapitalizeSubject"
+                ]
+            },
+            {
+                "action": "CaptainHook.Message.MustMatchRegex",
+                "options": {
+                    "regex": "#.*#"
+                }
+            }
+        ]
+    },
+    "post-commit": {
+        "enabled": false,
+        "actions": []
+    },
+    "pre-push": {
+        "enabled": false,
+        "actions": []
+    }
+}

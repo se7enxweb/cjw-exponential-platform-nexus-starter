@@ -1,0 +1,67 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['8.4', '8.5']
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php }}
+        extensions: dom, curl, libxml, mbstring, tokenizer, xml, xmlwriter
+        coverage: xdebug
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate --strict
+
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v4
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ matrix.php }}-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-php-${{ matrix.php }}-
+
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+
+    - name: Run linting
+      run: composer run-script lint
+
+    - name: Run static analysis
+      run: composer run-script phpstan
+
+    - name: Run test suite
+      run: composer run-script test
+
+    - name: Upload to Coveralls
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COVERALLS_PARALLEL: true
+        COVERALLS_FLAG_NAME: php-${{ matrix.php }}
+      run: vendor/bin/php-coveralls -v
+
+  finish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      run: |
+        curl -k https://coveralls.io/webhook?repo_token=${{ secrets.GITHUB_TOKEN }} -d "repo_name=$GITHUB_REPOSITORY&payload[build_num]=${{ github.run_id }}&payload[status]=done"

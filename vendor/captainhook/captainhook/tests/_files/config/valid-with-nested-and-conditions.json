@@ -1,0 +1,39 @@
+{
+  "prepare-commit-msg": {
+    "enabled": true,
+    "actions": []
+  },
+  "commit-msg": {
+    "enabled": true,
+    "actions": []
+  },
+  "pre-commit": {
+    "enabled": true,
+    "actions": [
+      {
+        "action": "phpunit --configuration=build/phpunit-hook.xml",
+        "options": {
+          "foo": "bar"
+        },
+        "conditions": [
+          {
+            "exec": "and",
+            "args": [{
+              "exec": "\\CaptainHook\\App\\Hook\\Condition\\AnyFileChanged",
+              "args": [
+                ["foo.php", "bar.php"]
+              ]
+            },{
+              "exec": "\\CaptainHook\\App\\Hook\\Condition\\AnyFileChanged",
+              "args": []
+            }]
+          }
+        ]
+      }
+    ]
+  },
+  "pre-push": {
+    "enabled": false,
+    "actions": []
+  }
+}

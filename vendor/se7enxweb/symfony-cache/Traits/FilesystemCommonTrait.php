@@ -55,6 +55,11 @@ trait FilesystemCommonTrait
     {
         $ok = true;
 
+        // Check if directory exists before attempting to iterate
+        if (!file_exists($this->directory) || !is_dir($this->directory)) {
+            return true;
+        }
+
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($this->directory, \FilesystemIterator::SKIP_DOTS)) as $file) {
             $ok = ($file->isDir() || @unlink($file) || !file_exists($file)) && $ok;
         }

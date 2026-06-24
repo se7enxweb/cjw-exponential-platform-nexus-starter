@@ -61,10 +61,14 @@ class LocationRetrievalCoordinator
             self::$customConfigLoader = new LoadInitializer($environment, (bool)$useDebugging);
         }
 
-        $cacheDir = self::$customConfigLoader->getCacheDir()."/cjw/config-processor-bundle/";
+        $cacheDir = self::$customConfigLoader->getCacheDir()."/cjw/config-processor-bundle";
 
         if (!self::$cache) {
             try {
+                // Ensure the cache directory exists
+                if (!file_exists($cacheDir)) {
+                    @mkdir($cacheDir, 0777, true);
+                }
                 self::$cache = new PhpFilesAdapter("", 0, $cacheDir);
             } catch (CacheException $e) {
                 self::$cache = new PhpFilesAdapter();

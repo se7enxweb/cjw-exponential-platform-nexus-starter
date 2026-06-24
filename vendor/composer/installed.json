@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "beberlei/assert",
-            "version": "v3.3.3",
-            "version_normalized": "3.3.3.0",
+            "version": "v3.3.4",
+            "version_normalized": "3.3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
-                "reference": "b5fd8eacd8915a1b627b8bfc027803f1939734dd"
+                "reference": "f193f4613c7d7fbcee2c05e4daff4061d49c040e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/assert/zipball/b5fd8eacd8915a1b627b8bfc027803f1939734dd",
-                "reference": "b5fd8eacd8915a1b627b8bfc027803f1939734dd",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/f193f4613c7d7fbcee2c05e4daff4061d49c040e",
+                "reference": "f193f4613c7d7fbcee2c05e4daff4061d49c040e",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
             "suggest": {
                 "ext-intl": "Needed to allow Assertion::count(), Assertion::isCountable(), Assertion::minCount(), and Assertion::maxCount() to operate on ResourceBundles"
             },
-            "time": "2024-07-15T13:18:35+00:00",
+            "time": "2026-06-10T19:47:05+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -66,7 +66,7 @@
             ],
             "support": {
                 "issues": "https://github.com/beberlei/assert/issues",
-                "source": "https://github.com/beberlei/assert/tree/v3.3.3"
+                "source": "https://github.com/beberlei/assert/tree/v3.3.4"
             },
             "install-path": "../beberlei/assert"
         },
@@ -159,17 +159,17 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.16.1",
-            "version_normalized": "4.16.1.0",
+            "version": "v4.17.0",
+            "version_normalized": "4.17.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "e26037937dfd48528746764dd870bc5d0836665f"
+                "reference": "5c8b3149fac39b5a79942b64eeec59a5ee4001c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/e26037937dfd48528746764dd870bc5d0836665f",
-                "reference": "e26037937dfd48528746764dd870bc5d0836665f",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/5c8b3149fac39b5a79942b64eeec59a5ee4001c0",
+                "reference": "5c8b3149fac39b5a79942b64eeec59a5ee4001c0",
                 "shasum": ""
             },
             "require": {
@@ -177,7 +177,7 @@
                 "php": ">=8.1 <8.6"
             },
             "require-dev": {
-                "cucumber/gherkin-monorepo": "dev-gherkin-v37.0.0",
+                "cucumber/gherkin-monorepo": "dev-gherkin-v39.1.0",
                 "friendsofphp/php-cs-fixer": "^3.77",
                 "mikey179/vfsstream": "^1.6",
                 "phpstan/extension-installer": "^1",
@@ -189,7 +189,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to parse features, represented in YAML files"
             },
-            "time": "2025-12-08T16:12:58+00:00",
+            "time": "2026-05-18T09:33:47+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -225,7 +225,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.16.1"
+                "source": "https://github.com/Behat/Gherkin/tree/v4.17.0"
             },
             "funding": [
                 {
@@ -833,28 +833,27 @@
         },
         {
             "name": "brick/math",
-            "version": "0.14.8",
-            "version_normalized": "0.14.8.0",
+            "version": "0.18.0",
+            "version_normalized": "0.18.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629"
+                "reference": "82944324d1c1bdb2c2618e89978d4e2ad78d69ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/63422359a44b7f06cae63c3b429b59e8efcc0629",
-                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629",
+                "url": "https://api.github.com/repos/brick/math/zipball/82944324d1c1bdb2c2618e89978d4e2ad78d69ad",
+                "reference": "82944324d1c1bdb2c2618e89978d4e2ad78d69ad",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^2.2",
                 "phpstan/phpstan": "2.1.22",
                 "phpunit/phpunit": "^11.5"
             },
-            "time": "2026-02-10T14:33:43+00:00",
+            "time": "2026-06-14T18:21:03+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -884,7 +883,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.14.8"
+                "source": "https://github.com/brick/math/tree/0.18.0"
             },
             "funding": [
                 {
@@ -896,17 +895,17 @@
         },
         {
             "name": "captainhook/captainhook",
-            "version": "5.28.3",
-            "version_normalized": "5.28.3.0",
+            "version": "5.29.2",
+            "version_normalized": "5.29.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/captainhook-git/captainhook.git",
-                "reference": "5d35b249f3843ef36ead119f4347e649278ad6d8"
+                "reference": "805d44b0de8ed143f4acfb8c6bcb788cdbc42963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/captainhook-git/captainhook/zipball/5d35b249f3843ef36ead119f4347e649278ad6d8",
-                "reference": "5d35b249f3843ef36ead119f4347e649278ad6d8",
+                "url": "https://api.github.com/repos/captainhook-git/captainhook/zipball/805d44b0de8ed143f4acfb8c6bcb788cdbc42963",
+                "reference": "805d44b0de8ed143f4acfb8c6bcb788cdbc42963",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +928,7 @@
                 "composer/composer": "~1 || ^2.0",
                 "mikey179/vfsstream": "~1"
             },
-            "time": "2026-02-16T14:08:58+00:00",
+            "time": "2026-03-25T19:32:25+00:00",
             "bin": [
                 "bin/captainhook"
             ],
@@ -971,7 +970,7 @@
             ],
             "support": {
                 "issues": "https://github.com/captainhook-git/captainhook/issues",
-                "source": "https://github.com/captainhook-git/captainhook/tree/5.28.3"
+                "source": "https://github.com/captainhook-git/captainhook/tree/5.29.2"
             },
             "funding": [
                 {
@@ -1307,6 +1306,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "install-path": "./package-versions-deprecated"
         },
         {
@@ -3895,32 +3895,33 @@
         },
         {
             "name": "google/recaptcha",
-            "version": "1.3.1",
-            "version_normalized": "1.3.1.0",
+            "version": "1.5",
+            "version_normalized": "1.5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/recaptcha.git",
-                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9"
+                "reference": "c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/recaptcha/zipball/56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
-                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d",
+                "reference": "c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8"
+                "php": ">=8.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.14",
-                "php-coveralls/php-coveralls": "^2.5",
-                "phpunit/phpunit": "^10"
+                "friendsofphp/php-cs-fixer": "^3.95",
+                "php-coveralls/php-coveralls": "^2.9.1",
+                "phpstan/phpstan": "^2.1.51",
+                "phpunit/phpunit": "^13.1"
             },
-            "time": "2025-06-26T22:21:57+00:00",
+            "time": "2026-04-27T09:26:38+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-main": "1.4.x-dev"
                 }
             },
             "installation-source": "source",
@@ -4552,17 +4553,17 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "1.5.2",
-            "version_normalized": "1.5.2.0",
+            "version": "1.5.4",
+            "version_normalized": "1.5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-imagine/Imagine.git",
-                "reference": "f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c"
+                "reference": "dd57a4c290ff4d223d17bcd219dac9ac8bf1cc16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c",
-                "reference": "f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/dd57a4c290ff4d223d17bcd219dac9ac8bf1cc16",
+                "reference": "dd57a4c290ff4d223d17bcd219dac9ac8bf1cc16",
                 "shasum": ""
             },
             "require": {
@@ -4577,7 +4578,7 @@
                 "ext-gmagick": "to use the Gmagick implementation",
                 "ext-imagick": "to use the Imagick implementation"
             },
-            "time": "2026-01-09T10:45:12+00:00",
+            "time": "2026-06-04T10:05:48+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -4611,7 +4612,7 @@
             ],
             "support": {
                 "issues": "https://github.com/php-imagine/Imagine/issues",
-                "source": "https://github.com/php-imagine/Imagine/tree/1.5.2"
+                "source": "https://github.com/php-imagine/Imagine/tree/1.5.4"
             },
             "install-path": "../imagine/imagine"
         },
@@ -5740,17 +5741,17 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.17.4",
-            "version_normalized": "1.17.4.0",
+            "version": "v1.17.6",
+            "version_normalized": "1.17.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "c6a63f32410d2e4ee2cd20fe94b35af147fb852d"
+                "reference": "b8b4184b1e6912669f9af155caef9050509d9f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/c6a63f32410d2e4ee2cd20fe94b35af147fb852d",
-                "reference": "c6a63f32410d2e4ee2cd20fe94b35af147fb852d",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/b8b4184b1e6912669f9af155caef9050509d9f18",
+                "reference": "b8b4184b1e6912669f9af155caef9050509d9f18",
                 "shasum": ""
             },
             "require": {
@@ -5760,11 +5761,11 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
             },
-            "time": "2025-10-10T12:53:17+00:00",
+            "time": "2026-04-24T08:04:05+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17.4-dev"
+                    "dev-master": "1.17.6-dev"
                 }
             },
             "installation-source": "source",
@@ -5786,7 +5787,7 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.17.4"
+                "source": "https://github.com/mck89/peast/tree/v1.17.6"
             },
             "install-path": "../mck89/peast"
         },
@@ -5881,17 +5882,17 @@
         },
         {
             "name": "mtdowling/jmespath.php",
-            "version": "2.8.0",
-            "version_normalized": "2.8.0.0",
+            "version": "2.9.1",
+            "version_normalized": "2.9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "a2a865e05d5f420b50cc2f85bb78d565db12a6bc"
+                "reference": "9c208ba27ae7d90853c288b3795d6702eb251d34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/a2a865e05d5f420b50cc2f85bb78d565db12a6bc",
-                "reference": "a2a865e05d5f420b50cc2f85bb78d565db12a6bc",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/9c208ba27ae7d90853c288b3795d6702eb251d34",
+                "reference": "9c208ba27ae7d90853c288b3795d6702eb251d34",
                 "shasum": ""
             },
             "require": {
@@ -5900,16 +5901,16 @@
             },
             "require-dev": {
                 "composer/xdebug-handler": "^3.0.3",
-                "phpunit/phpunit": "^8.5.33"
+                "phpunit/phpunit": "^8.5.52"
             },
-            "time": "2024-09-04T18:46:31+00:00",
+            "time": "2026-06-11T10:43:56+00:00",
             "bin": [
                 "bin/jp.php"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "2.9-dev"
                 }
             },
             "installation-source": "source",
@@ -5944,7 +5945,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jmespath/jmespath.php/issues",
-                "source": "https://github.com/jmespath/jmespath.php/tree/2.8.0"
+                "source": "https://github.com/jmespath/jmespath.php/tree/2.9.1"
             },
             "install-path": "../mtdowling/jmespath.php"
         },
@@ -6490,7 +6491,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezchangeclass"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6531,7 +6532,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezclasslists"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6698,7 +6699,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezplatformsearch"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -6800,7 +6801,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "hideuntildate"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -7264,7 +7265,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ngclasslist"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -7307,7 +7308,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ngsymfonytools"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -9379,12 +9380,12 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.32",
-            "version_normalized": "1.12.32.0",
+            "version": "1.12.33",
+            "version_normalized": "1.12.33.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
-                "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/37982d6fc7cbb746dda7773530cda557cdf119e1",
+                "reference": "37982d6fc7cbb746dda7773530cda557cdf119e1",
                 "shasum": ""
             },
             "require": {
@@ -9393,7 +9394,7 @@
             "conflict": {
                 "phpstan/phpstan-shim": "*"
             },
-            "time": "2025-09-30T10:16:31+00:00",
+            "time": "2026-02-28T20:30:03+00:00",
             "bin": [
                 "phpstan",
                 "phpstan.phar"
@@ -10730,21 +10731,21 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.9.2",
-            "version_normalized": "4.9.2.0",
+            "version": "4.9.3",
+            "version_normalized": "4.9.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "8429c78ca35a09f27565311b98101e2826affde0"
+                "reference": "1df15849d00943a67d677dc9cfd80795f038c9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/8429c78ca35a09f27565311b98101e2826affde0",
-                "reference": "8429c78ca35a09f27565311b98101e2826affde0",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/1df15849d00943a67d677dc9cfd80795f038c9f8",
+                "reference": "1df15849d00943a67d677dc9cfd80795f038c9f8",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8.16 || ^0.9 || ^0.10 || ^0.11 || ^0.12 || ^0.13 || ^0.14",
+                "brick/math": ">=0.8.16 <=0.18",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
             },
@@ -10777,7 +10778,7 @@
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
                 "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
             },
-            "time": "2025-12-14T04:43:48+00:00",
+            "time": "2026-06-18T03:57:49+00:00",
             "type": "library",
             "extra": {
                 "captainhook": {
@@ -10805,7 +10806,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.9.2"
+                "source": "https://github.com/ramsey/uuid/tree/4.9.3"
             },
             "install-path": "../ramsey/uuid"
         },
@@ -10984,7 +10985,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bccie"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -11076,7 +11077,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bcgooglesitemaps"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11156,7 +11157,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "bcwebsitestatistics"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11243,7 +11244,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "birthday"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11537,17 +11538,17 @@
         },
         {
             "name": "se7enxweb/doctrine-dbal-schema",
-            "version": "v1.0.10",
-            "version_normalized": "1.0.10.0",
+            "version": "v1.0.11",
+            "version_normalized": "1.0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/doctrine-dbal-schema.git",
-                "reference": "3291540dd8ad5d282f6783b4abf673924e354163"
+                "reference": "8c2a9dc3875e71ee1ae322d8e74cebb7cfd3e6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/doctrine-dbal-schema/zipball/3291540dd8ad5d282f6783b4abf673924e354163",
-                "reference": "3291540dd8ad5d282f6783b4abf673924e354163",
+                "url": "https://api.github.com/repos/se7enxweb/doctrine-dbal-schema/zipball/8c2a9dc3875e71ee1ae322d8e74cebb7cfd3e6e3",
+                "reference": "8c2a9dc3875e71ee1ae322d8e74cebb7cfd3e6e3",
                 "shasum": ""
             },
             "require": {
@@ -11558,12 +11559,15 @@
                 "symfony/http-kernel": "^3.4",
                 "symfony/yaml": "^3.4"
             },
+            "replace": {
+                "ezsystems/doctrine-dbal-schema": "*"
+            },
             "require-dev": {
                 "ezsystems/ezplatform-code-style": "^0.4.0",
                 "friendsofphp/php-cs-fixer": "^2.14",
                 "phpunit/phpunit": "^7.5"
             },
-            "time": "2025-07-01T08:18:37+00:00",
+            "time": "2026-04-12T07:59:01+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "thanks": {
@@ -11589,8 +11593,34 @@
             ],
             "description": "Abstraction layer, on top of Doctrine, for cross-DBMS schema import",
             "support": {
-                "source": "https://github.com/se7enxweb/doctrine-dbal-schema/tree/v1.0.10"
+                "source": "https://github.com/se7enxweb/doctrine-dbal-schema/tree/v1.0.11"
             },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
             "install-path": "../se7enxweb/doctrine-dbal-schema"
         },
         {
@@ -11617,7 +11647,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "enhancedezbinaryfile"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -11702,7 +11732,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "enhancedselection2"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-only"
@@ -11725,17 +11755,17 @@
         },
         {
             "name": "se7enxweb/exponential",
-            "version": "v6.0.12",
-            "version_normalized": "6.0.12.0",
+            "version": "v6.0.14",
+            "version_normalized": "6.0.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/exponential.git",
-                "reference": "3bbe53dd2911490616bebfc26ea15f1368bf92be"
+                "reference": "9b9c5bafcbdb9333ca06bac21af7f2134c90a00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/exponential/zipball/3bbe53dd2911490616bebfc26ea15f1368bf92be",
-                "reference": "3bbe53dd2911490616bebfc26ea15f1368bf92be",
+                "url": "https://api.github.com/repos/se7enxweb/exponential/zipball/9b9c5bafcbdb9333ca06bac21af7f2134c90a00a",
+                "reference": "9b9c5bafcbdb9333ca06bac21af7f2134c90a00a",
                 "shasum": ""
             },
             "require": {
@@ -11801,7 +11831,7 @@
                 "zetacomponents/webdav": "~1.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "10.0.0",
+                "phpunit/phpunit": "13.0.0",
                 "zetacomponents/php-generator": "~1.1"
             },
             "suggest": {
@@ -11823,7 +11853,7 @@
                 "se7enxweb/sevenx_valkey": "7x Valkey provides a feature complete simple template operator and class which provides access to valkey and redis compatible nosql databases. php-redis extension required",
                 "se7enxweb/xrowmetadata": "xrowmetadata is a feature complete seo enhancing solution that provides simply amazing results in terms of search engine seo optimization of existing content in a website. Try it today and you won't be disappointed."
             },
-            "time": "2026-02-10T10:09:24+00:00",
+            "time": "2026-06-07T12:18:59+00:00",
             "type": "ezpublish-legacy",
             "extra": {
                 "config": {
@@ -11844,7 +11874,7 @@
                 },
                 "symfony-assets-install": "relative"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "autoload.php"
@@ -11858,7 +11888,7 @@
             "homepage": "https://se7enx.com",
             "support": {
                 "issues": "https://github.com/se7enxweb/exponential/issues",
-                "source": "https://github.com/se7enxweb/exponential/tree/v6.0.12"
+                "source": "https://github.com/se7enxweb/exponential/tree/v6.0.14"
             },
             "funding": [
                 {
@@ -11890,17 +11920,17 @@
         },
         {
             "name": "se7enxweb/exponential-legacy-installer",
-            "version": "2.2.1",
-            "version_normalized": "2.2.1.0",
+            "version": "2.2.3",
+            "version_normalized": "2.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/exponential-legacy-installer.git",
-                "reference": "6e8cf018346d85704a6777f2d9cda2c16ce20c88"
+                "reference": "bddac7c813ac6dc2a0caf2cea9af55eb8d21b80a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/exponential-legacy-installer/zipball/6e8cf018346d85704a6777f2d9cda2c16ce20c88",
-                "reference": "6e8cf018346d85704a6777f2d9cda2c16ce20c88",
+                "url": "https://api.github.com/repos/se7enxweb/exponential-legacy-installer/zipball/bddac7c813ac6dc2a0caf2cea9af55eb8d21b80a",
+                "reference": "bddac7c813ac6dc2a0caf2cea9af55eb8d21b80a",
                 "shasum": ""
             },
             "require": {
@@ -11908,9 +11938,10 @@
                 "php": "^7.4 || ^8.1 || ^8.2"
             },
             "replace": {
-                "ezsystems/ezpublish-legacy-installer": "*"
+                "ezsystems/ezpublish-legacy-installer": "*",
+                "se7enxweb/ezpublish-legacy-installer": "*"
             },
-            "time": "2025-08-25T09:51:33+00:00",
+            "time": "2026-06-19T22:00:13+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "eZ\\Publish\\Composer\\InstallerPlugin",
@@ -11940,8 +11971,34 @@
             ],
             "description": "Installer for eZ Publish legacy extensions and legacy kernel itself.",
             "support": {
-                "source": "https://github.com/se7enxweb/exponential-legacy-installer/tree/2.2.1"
+                "source": "https://github.com/se7enxweb/exponential-legacy-installer/tree/2.2.3"
             },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
             "install-path": "../se7enxweb/exponential-legacy-installer"
         },
         {
@@ -11951,12 +12008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/EzCoreExtraBundle.git",
-                "reference": "0c4ee58ca8eaf51cc0935a4aa2fdd457090c2e82"
+                "reference": "6ae6fdca5560d707005238ed75e2bebb380ea633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/EzCoreExtraBundle/zipball/0c4ee58ca8eaf51cc0935a4aa2fdd457090c2e82",
-                "reference": "0c4ee58ca8eaf51cc0935a4aa2fdd457090c2e82",
+                "url": "https://api.github.com/repos/se7enxweb/EzCoreExtraBundle/zipball/6ae6fdca5560d707005238ed75e2bebb380ea633",
+                "reference": "6ae6fdca5560d707005238ed75e2bebb380ea633",
                 "shasum": ""
             },
             "require": {
@@ -11978,7 +12035,7 @@
             "suggest": {
                 "ezsystems/ezplatform-design-engine": "Design fallback mechanism for eZ Platform (previously part of EzCoreExtraBundle)"
             },
-            "time": "2026-01-28T13:39:06+00:00",
+            "time": "2026-03-02T08:42:26+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {
@@ -12006,6 +12063,32 @@
             "support": {
                 "source": "https://github.com/se7enxweb/EzCoreExtraBundle/tree/master"
             },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
             "install-path": "../se7enxweb/ez-core-extra-bundle"
         },
         {
@@ -12087,7 +12170,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezautosave"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -12163,7 +12246,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezdemo"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12235,7 +12318,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezflow"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12281,17 +12364,17 @@
         },
         {
             "name": "se7enxweb/ezgmaplocation",
-            "version": "v6.0.1",
-            "version_normalized": "6.0.1.0",
+            "version": "v6.0.2",
+            "version_normalized": "6.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/ezgmaplocation.git",
-                "reference": "b65947c1265418eb249224f0ecceecdefad41f29"
+                "reference": "e28aa58123a5b94f94a1debcc9afc041a5ec4560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/ezgmaplocation/zipball/b65947c1265418eb249224f0ecceecdefad41f29",
-                "reference": "b65947c1265418eb249224f0ecceecdefad41f29",
+                "url": "https://api.github.com/repos/se7enxweb/ezgmaplocation/zipball/e28aa58123a5b94f94a1debcc9afc041a5ec4560",
+                "reference": "e28aa58123a5b94f94a1debcc9afc041a5ec4560",
                 "shasum": ""
             },
             "require": {
@@ -12302,12 +12385,12 @@
                 "se7enxweb/ezflow": "~6.0.0",
                 "se7enxweb/ezwebin": "~6.0.0"
             },
-            "time": "2024-01-29T07:54:54+00:00",
+            "time": "2026-04-22T10:24:27+00:00",
             "type": "ezpublish-legacy-extension",
             "extra": {
                 "ezpublish-legacy-extension-name": "ezgmaplocation"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12318,10 +12401,10 @@
                     "homepage": "https://github.com/se7enxweb/ezgmaplocation"
                 }
             ],
-            "description": "eZ Publish Legacy map location datatype extension",
+            "description": "eZ Publish Google Mapping Location solution within an extension",
             "support": {
                 "issues": "https://github.com/se7enxweb/ezgmaplocation/issues",
-                "source": "https://github.com/se7enxweb/ezgmaplocation/tree/v6.0.1"
+                "source": "https://github.com/se7enxweb/ezgmaplocation/tree/v6.0.2"
             },
             "funding": [
                 {
@@ -12374,7 +12457,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezie"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12441,7 +12524,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezmbpaex"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -12592,7 +12675,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezmultiupload"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12659,7 +12742,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezodf"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -12727,7 +12810,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezpaypal"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -13676,7 +13759,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezprestapi"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -13766,7 +13849,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezprestapiprovider"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -13812,17 +13895,17 @@
         },
         {
             "name": "se7enxweb/ezpublish-kernel",
-            "version": "v7.5.40",
-            "version_normalized": "7.5.40.0",
+            "version": "v7.5.41",
+            "version_normalized": "7.5.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/ezpublish-kernel.git",
-                "reference": "654367b561cc605a160bec12fa95cdaf1cf4ce5b"
+                "reference": "23d2b55de23284aaff88749895868e8a10455e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/ezpublish-kernel/zipball/654367b561cc605a160bec12fa95cdaf1cf4ce5b",
-                "reference": "654367b561cc605a160bec12fa95cdaf1cf4ce5b",
+                "url": "https://api.github.com/repos/se7enxweb/ezpublish-kernel/zipball/23d2b55de23284aaff88749895868e8a10455e8b",
+                "reference": "23d2b55de23284aaff88749895868e8a10455e8b",
                 "shasum": ""
             },
             "require": {
@@ -13879,7 +13962,7 @@
             "suggest": {
                 "php-64bit": "For support of more than 30 languages, a 64bit php installation on all involved prod/dev machines is required"
             },
-            "time": "2026-02-15T07:03:01+00:00",
+            "time": "2026-04-10T02:44:49+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -13919,7 +14002,7 @@
             "homepage": "https://ezplatform.com",
             "support": {
                 "issues": "https://github.com/se7enxweb/ezpublish-kernel/issues",
-                "source": "https://github.com/se7enxweb/ezpublish-kernel/tree/v7.5.40"
+                "source": "https://github.com/se7enxweb/ezpublish-kernel/tree/v7.5.41"
             },
             "funding": [
                 {
@@ -13950,83 +14033,6 @@
             "install-path": "../se7enxweb/ezpublish-kernel"
         },
         {
-            "name": "se7enxweb/ezpublish-legacy-installer",
-            "version": "v2.1.0.2",
-            "version_normalized": "2.1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/se7enxweb/ezpublish-legacy-installer.git",
-                "reference": "7b2b89861b50f0a9fdf68b5f8fc6fc7651ee75e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/ezpublish-legacy-installer/zipball/7b2b89861b50f0a9fdf68b5f8fc6fc7651ee75e8",
-                "reference": "7b2b89861b50f0a9fdf68b5f8fc6fc7651ee75e8",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": "^5.4 || ^7.0 || ^8.1"
-            },
-            "time": "2024-01-29T09:44:13+00:00",
-            "type": "composer-plugin",
-            "extra": {
-                "class": "eZ\\Publish\\Composer\\InstallerPlugin"
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "eZ\\Publish\\Composer": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Jérôme Vieilledent",
-                    "email": "jerome.vieilledent@ez.no"
-                },
-                {
-                    "name": "Gaetano Giunta",
-                    "email": "gaetano.giunta@ez.no"
-                }
-            ],
-            "description": "Not inteaded to be used directly by end users. This is a custom composer installer for eZ Publish legacy extensions. Installer for eZ Publish Legacy extensions and Legacy Kernel.",
-            "support": {
-                "issues": "https://github.com/se7enxweb/ezpublish-legacy-installer/issues",
-                "source": "https://github.com/se7enxweb/ezpublish-legacy-installer/tree/v2.1.0.2"
-            },
-            "funding": [
-                {
-                    "url": "https://account.venmo.com/u/se7enxweb",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://cash.app/$7xweb",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://se7enx.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.paypal.me/7xweb",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/se7enxweb",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/7xweb",
-                    "type": "patreon"
-                }
-            ],
-            "install-path": "../se7enxweb/ezpublish-legacy-installer"
-        },
-        {
             "name": "se7enxweb/ezstarrating",
             "version": "v6.0.2",
             "version_normalized": "6.0.2.0",
@@ -14054,7 +14060,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezstarrating"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14100,23 +14106,23 @@
         },
         {
             "name": "se7enxweb/eztags",
-            "version": "v2.3.1",
-            "version_normalized": "2.3.1.0",
+            "version": "v2.3.2",
+            "version_normalized": "2.3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/eztags.git",
-                "reference": "2830721b324027ccadaa0dcfefecb466856c416e"
+                "reference": "65dc524ad3793d970cc7d1ad2347d144b5cb1ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/eztags/zipball/2830721b324027ccadaa0dcfefecb466856c416e",
-                "reference": "2830721b324027ccadaa0dcfefecb466856c416e",
+                "url": "https://api.github.com/repos/se7enxweb/eztags/zipball/65dc524ad3793d970cc7d1ad2347d144b5cb1ac7",
+                "reference": "65dc524ad3793d970cc7d1ad2347d144b5cb1ac7",
                 "shasum": ""
             },
             "require": {
                 "se7enxweb/ezpublish-legacy-installer": "*"
             },
-            "time": "2024-01-29T09:02:11+00:00",
+            "time": "2026-04-22T08:15:55+00:00",
             "type": "ezpublish-legacy-extension",
             "extra": {
                 "branch-alias": {
@@ -14124,7 +14130,7 @@
                 },
                 "ezpublish-legacy-extension-name": "eztags"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14149,7 +14155,7 @@
             "description": "eZ Tags is an extension for eZ Publish, providing more functionality for tagging content objects than ezkeyword datatype included in eZ Publish kernel.",
             "support": {
                 "issues": "https://github.com/se7enxweb/eztags/issues",
-                "source": "https://github.com/se7enxweb/eztags/tree/v2.3.1"
+                "source": "https://github.com/se7enxweb/eztags/tree/v2.3.2"
             },
             "funding": [
                 {
@@ -14203,7 +14209,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezupdate"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14271,17 +14277,17 @@
         },
         {
             "name": "se7enxweb/ezwebin",
-            "version": "v6.0.1",
-            "version_normalized": "6.0.1.0",
+            "version": "v6.0.2",
+            "version_normalized": "6.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/ezwebin.git",
-                "reference": "09c63ec988356c62f106fe12adaf2fe410e0fce8"
+                "reference": "f215980a9005c7a2c53d7de3cba7028175586c5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/ezwebin/zipball/09c63ec988356c62f106fe12adaf2fe410e0fce8",
-                "reference": "09c63ec988356c62f106fe12adaf2fe410e0fce8",
+                "url": "https://api.github.com/repos/se7enxweb/ezwebin/zipball/f215980a9005c7a2c53d7de3cba7028175586c5e",
+                "reference": "f215980a9005c7a2c53d7de3cba7028175586c5e",
                 "shasum": ""
             },
             "require": {
@@ -14292,12 +14298,12 @@
                 "se7enxweb/ezstarrating-ls-extension": "~5.3",
                 "se7enxweb/ezwt-ls-extension": "~5.3"
             },
-            "time": "2024-01-29T05:40:31+00:00",
+            "time": "2026-04-23T08:39:14+00:00",
             "type": "ezpublish-legacy-extension",
             "extra": {
                 "ezpublish-legacy-extension-name": "ezwebin"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14311,7 +14317,7 @@
             "description": "eZ Publish Legacy website interface extension",
             "support": {
                 "issues": "https://github.com/se7enxweb/ezwebin/issues",
-                "source": "https://github.com/se7enxweb/ezwebin/tree/v6.0.1"
+                "source": "https://github.com/se7enxweb/ezwebin/tree/v6.0.2"
             },
             "funding": [
                 {
@@ -14364,7 +14370,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezwt"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14504,7 +14510,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "hcaptcha"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -14872,17 +14878,17 @@
         },
         {
             "name": "se7enxweb/legacy-bridge",
-            "version": "v2.1.10",
-            "version_normalized": "2.1.10.0",
+            "version": "v2.1.12",
+            "version_normalized": "2.1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/LegacyBridge.git",
-                "reference": "441d49f702607ea533a9941fda93b50a9de0b816"
+                "reference": "be308cf0e7612b5da7b8fbd782eeedef73eb47ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/LegacyBridge/zipball/441d49f702607ea533a9941fda93b50a9de0b816",
-                "reference": "441d49f702607ea533a9941fda93b50a9de0b816",
+                "url": "https://api.github.com/repos/se7enxweb/LegacyBridge/zipball/be308cf0e7612b5da7b8fbd782eeedef73eb47ec",
+                "reference": "be308cf0e7612b5da7b8fbd782eeedef73eb47ec",
                 "shasum": ""
             },
             "require": {
@@ -14901,7 +14907,7 @@
                 "phpunit/phpunit": "^11.5.25",
                 "se7enxweb/ezplatform-http-cache": "~0.9"
             },
-            "time": "2025-08-25T11:07:02+00:00",
+            "time": "2026-04-10T03:07:18+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
@@ -14928,8 +14934,34 @@
             ],
             "description": "eZ Platform bridge to eZ Publish Legacy",
             "support": {
-                "source": "https://github.com/se7enxweb/LegacyBridge/tree/v2.1.10"
+                "source": "https://github.com/se7enxweb/LegacyBridge/tree/v2.1.12"
             },
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
             "install-path": "../se7enxweb/legacy-bridge"
         },
         {
@@ -15061,7 +15093,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "nxc_powercontent"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15149,7 +15181,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "owsimpleoperator"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15242,7 +15274,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "recaptcha"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15610,29 +15642,29 @@
         },
         {
             "name": "se7enxweb/sevenx_themes_simple",
-            "version": "v1.0.4",
-            "version_normalized": "1.0.4.0",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/sevenx_themes_simple.git",
-                "reference": "217fc0a1df65d9cf587a73cf183428586debfe43"
+                "reference": "df92e6dc6b67c7284a45dada793dccad4536bcc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/sevenx_themes_simple/zipball/217fc0a1df65d9cf587a73cf183428586debfe43",
-                "reference": "217fc0a1df65d9cf587a73cf183428586debfe43",
+                "url": "https://api.github.com/repos/se7enxweb/sevenx_themes_simple/zipball/df92e6dc6b67c7284a45dada793dccad4536bcc5",
+                "reference": "df92e6dc6b67c7284a45dada793dccad4536bcc5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0",
                 "se7enxweb/ezpublish-legacy-installer": "*"
             },
-            "time": "2025-08-17T05:06:36+00:00",
+            "time": "2026-04-29T20:04:52+00:00",
             "type": "ezpublish-legacy-extension",
             "extra": {
                 "ezpublish-legacy-extension-name": "sevenx_themes_simple"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -15658,7 +15690,7 @@
             ],
             "support": {
                 "issues": "https://github.com/se7enxweb/sevenx_themes_simple/issues",
-                "source": "https://github.com/se7enxweb/sevenx_themes_simple/tree/v1.0.4"
+                "source": "https://github.com/se7enxweb/sevenx_themes_simple/tree/v1.0.6"
             },
             "funding": [
                 {
@@ -15769,17 +15801,17 @@
         },
         {
             "name": "se7enxweb/site-legacy-bundle",
-            "version": "v1.4.5",
-            "version_normalized": "1.4.5.0",
+            "version": "v1.4.6",
+            "version_normalized": "1.4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/site-legacy-bundle.git",
-                "reference": "2a56f7891b136130c11e74e08746124d05115c08"
+                "reference": "e5d2db07f950d1b91ba8a07abdf80783779e8ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/site-legacy-bundle/zipball/2a56f7891b136130c11e74e08746124d05115c08",
-                "reference": "2a56f7891b136130c11e74e08746124d05115c08",
+                "url": "https://api.github.com/repos/se7enxweb/site-legacy-bundle/zipball/e5d2db07f950d1b91ba8a07abdf80783779e8ae8",
+                "reference": "e5d2db07f950d1b91ba8a07abdf80783779e8ae8",
                 "shasum": ""
             },
             "require": {
@@ -15798,7 +15830,7 @@
                 "se7enxweb/site-bundle": "^1.5",
                 "se7enxweb/xrowmetadata": "^1.3.5"
             },
-            "time": "2026-01-30T08:43:56+00:00",
+            "time": "2026-02-26T09:43:50+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -15823,7 +15855,7 @@
             ],
             "description": "Netgen Site Legacy Bundle is an eZ Platform bundle that implements common features that are used by Netgen to implement websites. This bundle acts as a glue between new and legacy kernels.",
             "support": {
-                "source": "https://github.com/se7enxweb/site-legacy-bundle/tree/v1.4.5"
+                "source": "https://github.com/se7enxweb/site-legacy-bundle/tree/v1.4.6"
             },
             "install-path": "../se7enxweb/site-legacy-bundle"
         },
@@ -15851,7 +15883,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "swark"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -16278,12 +16310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/TagsBundle.git",
-                "reference": "601f660eb345aa75f1c2a06d10fba5c84aa31974"
+                "reference": "4dfbcbc67246c77e2ad1dee7102e83896d6d3ff2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/TagsBundle/zipball/601f660eb345aa75f1c2a06d10fba5c84aa31974",
-                "reference": "601f660eb345aa75f1c2a06d10fba5c84aa31974",
+                "url": "https://api.github.com/repos/se7enxweb/TagsBundle/zipball/4dfbcbc67246c77e2ad1dee7102e83896d6d3ff2",
+                "reference": "4dfbcbc67246c77e2ad1dee7102e83896d6d3ff2",
                 "shasum": ""
             },
             "require": {
@@ -16305,7 +16337,7 @@
             "suggest": {
                 "ezsystems/eztags-ls": "For editing eZ Tags content object and content class attributes in eZ Publish Legacy"
             },
-            "time": "2026-02-18T14:20:04+00:00",
+            "time": "2026-02-19T22:02:44+00:00",
             "type": "ezplatform-bundle",
             "extra": {
                 "branch-alias": {
@@ -16442,7 +16474,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "xrowextract"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -16513,7 +16545,7 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "xrowmetadata"
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
@@ -19194,8 +19226,8 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
@@ -19251,7 +19283,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-apcu/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-apcu/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -19275,17 +19307,17 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/141046a8f9477948ff284fa65be2095baafb94f2",
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2",
                 "shasum": ""
             },
             "require": {
@@ -19297,7 +19329,7 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
+            "time": "2026-04-10T16:19:22+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19337,7 +19369,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -19361,17 +19393,17 @@
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "5f3b930437ae03ae5dff61269024d8ea1b3774aa"
+                "reference": "2c5729fd241b4b22f6e4b436bc3354a4f262df57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/5f3b930437ae03ae5dff61269024d8ea1b3774aa",
-                "reference": "5f3b930437ae03ae5dff61269024d8ea1b3774aa",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/2c5729fd241b4b22f6e4b436bc3354a4f262df57",
+                "reference": "2c5729fd241b4b22f6e4b436bc3354a4f262df57",
                 "shasum": ""
             },
             "require": {
@@ -19383,7 +19415,7 @@
             "suggest": {
                 "ext-iconv": "For best performance"
             },
-            "time": "2024-09-17T14:58:18+00:00",
+            "time": "2026-04-10T16:19:22+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19424,7 +19456,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -19448,17 +19480,17 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.38.1",
+            "version_normalized": "1.38.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70"
+                "reference": "e9247d281d694a5120554d9afaf54e070e88a603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/380872130d3a5dd3ace2f4010d95125fde5d5c70",
-                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e9247d281d694a5120554d9afaf54e070e88a603",
+                "reference": "e9247d281d694a5120554d9afaf54e070e88a603",
                 "shasum": ""
             },
             "require": {
@@ -19467,7 +19499,7 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2025-06-27T09:58:17+00:00",
+            "time": "2026-05-26T05:58:03+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19509,7 +19541,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.38.1"
             },
             "funding": [
                 {
@@ -19533,17 +19565,17 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.38.0",
+            "version_normalized": "1.38.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "bfc8fa13dbaf21d69114b0efcd72ab700fb04d0c"
+                "reference": "445c90e341fccda10311019cf82ff73bb7343945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/bfc8fa13dbaf21d69114b0efcd72ab700fb04d0c",
-                "reference": "bfc8fa13dbaf21d69114b0efcd72ab700fb04d0c",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/445c90e341fccda10311019cf82ff73bb7343945",
+                "reference": "445c90e341fccda10311019cf82ff73bb7343945",
                 "shasum": ""
             },
             "require": {
@@ -19552,7 +19584,7 @@
             "suggest": {
                 "ext-intl": "For best performance and support of other locales than \"en\""
             },
-            "time": "2025-06-20T22:24:30+00:00",
+            "time": "2026-05-25T11:52:53+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19600,7 +19632,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-icu/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-icu/tree/v1.38.0"
             },
             "funding": [
                 {
@@ -19624,17 +19656,17 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.38.1",
+            "version_normalized": "1.38.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3"
+                "reference": "dc21118016c039a66235cf93d96b435ffb282412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/9614ac4d8061dc257ecc64cba1b140873dce8ad3",
-                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/dc21118016c039a66235cf93d96b435ffb282412",
+                "reference": "dc21118016c039a66235cf93d96b435ffb282412",
                 "shasum": ""
             },
             "require": {
@@ -19644,7 +19676,7 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2024-09-10T14:38:51+00:00",
+            "time": "2026-05-25T15:22:23+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19690,7 +19722,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.38.1"
             },
             "funding": [
                 {
@@ -19714,17 +19746,17 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.38.0",
+            "version_normalized": "1.38.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "3833d7255cc303546435cb650316bff708a1c75c"
+                "reference": "2d446c214bdbe5b71bde5011b060a05fece3ae6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/3833d7255cc303546435cb650316bff708a1c75c",
-                "reference": "3833d7255cc303546435cb650316bff708a1c75c",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/2d446c214bdbe5b71bde5011b060a05fece3ae6b",
+                "reference": "2d446c214bdbe5b71bde5011b060a05fece3ae6b",
                 "shasum": ""
             },
             "require": {
@@ -19733,7 +19765,7 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
+            "time": "2026-05-25T13:48:31+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19778,7 +19810,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.38.0"
             },
             "funding": [
                 {
@@ -19802,17 +19834,17 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.38.2",
+            "version_normalized": "1.38.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
-                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
+                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
                 "shasum": ""
             },
             "require": {
@@ -19825,7 +19857,7 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "time": "2024-12-23T08:48:59+00:00",
+            "time": "2026-05-27T06:59:30+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -19866,7 +19898,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.38.2"
             },
             "funding": [
                 {
@@ -20097,8 +20129,8 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -20156,7 +20188,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -20180,23 +20212,23 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
-                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
-            "time": "2025-01-02T08:10:11+00:00",
+            "time": "2026-04-10T16:19:22+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -20243,7 +20275,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -20267,17 +20299,17 @@
         },
         {
             "name": "symfony/polyfill-uuid",
-            "version": "v1.33.0",
-            "version_normalized": "1.33.0.0",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-uuid.git",
-                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2"
+                "reference": "26dfec253c4cf3e51b541b52ddf7e42cb0908e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
-                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
+                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/26dfec253c4cf3e51b541b52ddf7e42cb0908e94",
+                "reference": "26dfec253c4cf3e51b541b52ddf7e42cb0908e94",
                 "shasum": ""
             },
             "require": {
@@ -20289,7 +20321,7 @@
             "suggest": {
                 "ext-uuid": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
+            "time": "2026-04-10T16:19:22+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -20329,7 +20361,7 @@
                 "uuid"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -20439,17 +20471,17 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.30",
-            "version_normalized": "6.4.30.0",
+            "version": "v6.4.39",
+            "version_normalized": "6.4.39.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "50590a057841fa6bf69d12eceffce3465b9e32cb"
+                "reference": "62e3c927de664edadb5bef260987eb047a17a113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/50590a057841fa6bf69d12eceffce3465b9e32cb",
-                "reference": "50590a057841fa6bf69d12eceffce3465b9e32cb",
+                "url": "https://api.github.com/repos/symfony/string/zipball/62e3c927de664edadb5bef260987eb047a17a113",
+                "reference": "62e3c927de664edadb5bef260987eb047a17a113",
                 "shasum": ""
             },
             "require": {
@@ -20468,7 +20500,7 @@
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^5.4|^6.0|^7.0"
             },
-            "time": "2025-11-21T18:03:05+00:00",
+            "time": "2026-05-12T11:44:19+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -20507,7 +20539,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.30"
+                "source": "https://github.com/symfony/string/tree/v6.4.39"
             },
             "funding": [
                 {
@@ -22489,17 +22521,17 @@
         },
         {
             "name": "zetacomponents/persistent-object",
-            "version": "1.8.1",
-            "version_normalized": "1.8.1.0",
+            "version": "1.8.2",
+            "version_normalized": "1.8.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/PersistentObject.git",
-                "reference": "d6fc6cbc94c0ac6e36d78008ae86953ef9166223"
+                "reference": "2d50104824e1c3376478214ce288a47b6be77212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/PersistentObject/zipball/d6fc6cbc94c0ac6e36d78008ae86953ef9166223",
-                "reference": "d6fc6cbc94c0ac6e36d78008ae86953ef9166223",
+                "url": "https://api.github.com/repos/zetacomponents/PersistentObject/zipball/2d50104824e1c3376478214ce288a47b6be77212",
+                "reference": "2d50104824e1c3376478214ce288a47b6be77212",
                 "shasum": ""
             },
             "require": {
@@ -22510,7 +22542,7 @@
                 "zetacomponents/database-schema": "*",
                 "zetacomponents/unit-test": "*"
             },
-            "time": "2021-03-26T10:30:29+00:00",
+            "time": "2026-03-05T15:00:14+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -22561,7 +22593,7 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/PersistentObject/issues",
-                "source": "https://github.com/zetacomponents/PersistentObject/tree/1.8.1"
+                "source": "https://github.com/zetacomponents/PersistentObject/tree/1.8.2"
             },
             "install-path": "../zetacomponents/persistent-object"
         },

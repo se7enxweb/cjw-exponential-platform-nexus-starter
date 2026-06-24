@@ -34,6 +34,19 @@ ezpublish:
                 legacy.platform.cjw.demo.se7enx.com: legacy_admin
                 editor.platform.cjw.demo.se7enx.com: legacy_admin
                 nga.platform.cjw.demo.se7enx.com: ngadminui
+                platform.cjw.alpha.se7enx.com: en
+                site.platform.cjw.alpha.se7enx.com: en
+                edit.platform.cjw.alpha.se7enx.com: admin
+                legacy.platform.cjw.alpha.se7enx.com: legacy_admin
+                editor.platform.cjw.alpha.se7enx.com: legacy_admin
+                nga.platform.cjw.alpha.se7enx.com: ngadminui
+                #legacy.platform.cjw.beta.se7enx.com: en
+                #platform.cjw.beta.se7enx.com: en
+                #site.platform.cjw.beta.se7enx.com: en
+                #edit.platform.cjw.beta.se7enx.com: admin
+                #legacy.platform.cjw.beta.se7enx.com: legacy_admin
+                #editor.platform.cjw.beta.se7enx.com: legacy_admin
+                #nga.platform.cjw.demo.se7enx.com: ngadminui
     system:
         frontend_group:
             translation_siteaccesses:
@@ -84,8 +97,8 @@ ezpublish:
         ngadminui:
             design: ngadminui
             languages:
-                - ger-DE
                 - eng-GB
+                - ger-DE
             session:
                 name: eZSESSID
         admin:
@@ -100,8 +113,6 @@ ezpublish:
             languages:
                 - ger-DE
                 - eng-GB
-            session:
-                name: eZSESSID
             user:
                 layout: '@EzPlatformAdminUiBundle/layout.html.twig'
 netgen_layouts:
