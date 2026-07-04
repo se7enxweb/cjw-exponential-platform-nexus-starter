@@ -1,0 +1,699 @@
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'nglayouts' does not exist, looked for directory 'extension/nglayouts'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'ezrichtext' does not exist, looked for directory 'extension/ezrichtext'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'ngadminui' does not exist, looked for directory 'extension/ngadminui'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'ngsite' does not exist, looked for directory 'extension/ngsite'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:14:52 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:15:26 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:15:26 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:15:26 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:15:27 ][ de ][ https://platform.cjw.alpha.se7enx.com/ ] Unexpected error, the message was : RecursiveDirectoryIterator::__construct(/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/var/cache/dev/cjw/config-processor-bundle//): Failed to open directory: No such file or directory in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/se7enxweb/symfony-cache/Traits/PhpFilesTrait.php on line 47
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:29:21 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:35:43 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:36:27 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:39:46 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:43:09 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:43:48 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:43:48 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:43:48 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:44:00 ][ de ][ https://platform.cjw.alpha.se7enx.com/ ] Unexpected error, the message was : Unable to create the storage directory (/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/var/cache/dev/profiler). in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/se7enxweb/symfony/src/Symfony/Component/HttpKernel/Profiler/FileProfilerStorage.php on line 45
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 21:44:28 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'app' does not exist, looked for directory 'extension/app'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 21:45:20 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 21:46:15 ][ de ][ https://platform.cjw.alpha.se7enx.com/ ] Unexpected error, the message was : Unable to create the cache directory (/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/var/cache/dev/twig/e5). in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/se7enxweb/twig/src/Cache/FilesystemCache.php on line 57
+[ Jun 23 2026 21:46:23 ][ de ][ https://platform.cjw.alpha.se7enx.com/ ] Unexpected error, the message was : Unable to create the cache directory (/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/var/cache/dev/twig/e5). in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/se7enxweb/twig/src/Cache/FilesystemCache.php on line 57
+[ Jun 23 2026 23:11:31 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:11:31 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/template/compiled is not a folder
+[ Jun 23 2026 23:11:31 ] [web.my.se7enx.com] eZDir::recursiveDelete:
+The path: var/site/cache/override is not a folder
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 23:14:23 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 23:14:23 ][ en ][ https://platform.cjw.alpha.se7enx.com/login ] Unexpected error, the message was : CJW\CJWConfigProcessor\src\ConfigProcessorBundle\SiteAccessParamProcessor::processSiteAccessBased(): Argument #2 ($parameters) must be of type array, null given, called in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/ConfigProcessCoordinator.php on line 193 in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/SiteAccessParamProcessor.php on line 48
+[ Jun 23 2026 23:38:01 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/template-block/subtree/2/cache' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template-block/subtree/2/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/codepages' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/wildcard' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 23:44:00 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 23:46:52 ] [50.191.224.82] :
+Recursive delete denied for 'var/site/cache/template-block/subtree/2/cache' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template-block/subtree/2/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:48:27 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:48:27 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:48:27 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:48:27 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 23 2026 23:54:15 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 23 2026 23:54:15 ][ en ][ https://platform.cjw.alpha.se7enx.com/beispiele-1 ] Unexpected error, the message was : CJW\CJWConfigProcessor\src\ConfigProcessorBundle\SiteAccessParamProcessor::processSiteAccessBased(): Argument #2 ($parameters) must be of type array, null given, called in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/ConfigProcessCoordinator.php on line 193 in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/SiteAccessParamProcessor.php on line 48
+[ Jun 23 2026 23:54:16 ][ en ][ https://platform.cjw.alpha.se7enx.com/beispiele-1 ] Unexpected error, the message was : CJW\CJWConfigProcessor\src\ConfigProcessorBundle\SiteAccessParamProcessor::processSiteAccessBased(): Argument #2 ($parameters) must be of type array, null given, called in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/ConfigProcessCoordinator.php on line 193 in /var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/vendor/cjw-network/cjw-config-processor/src/ConfigProcessorBundle/SiteAccessParamProcessor.php on line 48
+[ Jun 23 2026 23:57:11 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:57:11 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:57:11 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 23 2026 23:57:11 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 24 2026 00:01:59 ] [50.191.224.82] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 24 2026 07:13:43 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:13:43 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:13:43 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:13:43 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 24 2026 07:16:01 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 24 2026 07:16:03 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:16:03 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:16:03 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:16:03 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 24 2026 07:43:45 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 24 2026 07:43:50 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:43:50 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:43:50 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:43:50 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 24 2026 07:44:48 ] [web.my.se7enx.com] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 24 2026 07:44:52 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/cache/ini' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:44:52 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/trans' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:44:52 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/template/compiled' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/template/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 24 2026 07:44:52 ] [web.my.se7enx.com] :
+Recursive delete denied for 'var/site/cache/override' as its realpath '/var/www/vhosts/platform.cjw.alpha.se7enx.com/doc/ezp25-jacexample/src/AppBundle/ezpublish_legacy/var/site/cache/' is outside eZ Publish root and not registered in AllowedDeletionDirs.
+[ Jun 26 2026 08:22:23 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'jactools' does not exist, looked for directory 'extension/jactools'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'jac_admin' does not exist, looked for directory 'extension/jac_admin'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'cjw_newsletter' does not exist, looked for directory 'extension/cjw_newsletter'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'cjw_osm_proxy' does not exist, looked for directory 'extension/cjw_osm_proxy'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'jac_piwik' does not exist, looked for directory 'extension/jac_piwik'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'jacmultihandler' does not exist, looked for directory 'extension/jacmultihandler'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'cjw_pdfjs' does not exist, looked for directory 'extension/cjw_pdfjs'
+[ Jun 26 2026 08:22:24 ] [180.120.116.59] eZExtension::activeExtensions:
+Extension 'cjw_tmv_veranstdb' does not exist, looked for directory 'extension/cjw_tmv_veranstdb'
+[ Jun 29 2026 01:20:48 ] [185.242.3.60] index:
+Undefined module: .env
+[ Jun 29 2026 01:20:48 ] [185.242.3.60] error/view.php:
+Error ocurred using URI: /.env
+[ Jun 29 2026 19:05:08 ] [45.130.203.146] index:
+Undefined module: .env
+[ Jun 29 2026 19:05:08 ] [45.130.203.146] error/view.php:
+Error ocurred using URI: /.env
+[ Jun 29 2026 19:05:12 ] [45.130.203.170] index:
+Undefined module: .env.production
+[ Jun 29 2026 19:05:12 ] [45.130.203.170] error/view.php:
+Error ocurred using URI: /.env.production
+[ Jun 29 2026 19:05:17 ] [45.130.203.143] index:
+Undefined module: .env
+[ Jun 29 2026 19:05:17 ] [45.130.203.143] error/view.php:
+Error ocurred using URI: /.env
+[ Jun 29 2026 23:52:49 ] [64.226.65.160] index:
+Undefined module: console
+[ Jun 29 2026 23:52:49 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /console/
+[ Jun 29 2026 23:52:52 ] [64.226.65.160] index:
+Undefined module: server
+[ Jun 29 2026 23:52:52 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /server
+[ Jun 29 2026 23:52:55 ] [64.226.65.160] index:
+Undefined module: server-status
+[ Jun 29 2026 23:52:55 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /server-status
+[ Jun 29 2026 23:52:57 ] [64.226.65.160] index:
+Undefined module: about
+[ Jun 29 2026 23:52:57 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /about
+[ Jun 29 2026 23:53:00 ] [64.226.65.160] index:
+Undefined module: login.action
+[ Jun 29 2026 23:53:00 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /login.action
+[ Jun 29 2026 23:53:05 ] [64.226.65.160] index:
+Undefined module: ___proxy_subdomain_whm
+[ Jun 29 2026 23:53:05 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /___proxy_subdomain_whm/login
+[ Jun 29 2026 23:53:07 ] [64.226.65.160] index:
+Undefined module: ___proxy_subdomain_cpanel
+[ Jun 29 2026 23:53:07 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /___proxy_subdomain_cpanel
+[ Jun 29 2026 23:53:10 ] [64.226.65.160] index:
+Undefined module: v2
+[ Jun 29 2026 23:53:10 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /v2/_catalog
+[ Jun 29 2026 23:53:12 ] [64.226.65.160] index:
+Undefined module: .DS_Store
+[ Jun 29 2026 23:53:12 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /.DS_Store
+[ Jun 29 2026 23:53:15 ] [64.226.65.160] index:
+Undefined module: .env
+[ Jun 29 2026 23:53:15 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /.env
+[ Jun 29 2026 23:53:18 ] [64.226.65.160] index:
+Undefined module: ecp
+[ Jun 29 2026 23:53:18 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[ Jun 29 2026 23:53:24 ] [64.226.65.160] index:
+Undefined module: api
+[ Jun 29 2026 23:53:24 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /api
+[ Jun 29 2026 23:53:26 ] [64.226.65.160] index:
+Undefined module: api
+[ Jun 29 2026 23:53:26 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /api/graphql
+[ Jun 29 2026 23:53:30 ] [64.226.65.160] index:
+Undefined module: api
+[ Jun 29 2026 23:53:30 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /api/gql
+[ Jun 29 2026 23:53:32 ] [64.226.65.160] index:
+Undefined module: s
+[ Jun 29 2026 23:53:32 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /s/43e2632313e24393e26363/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[ Jun 29 2026 23:53:34 ] [64.226.65.160] index:
+Undefined module: config.json
+[ Jun 29 2026 23:53:34 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /config.json
+[ Jun 29 2026 23:53:37 ] [64.226.65.160] index:
+Undefined module: telescope
+[ Jun 29 2026 23:53:37 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /telescope/requests
+[ Jun 29 2026 23:53:39 ] [64.226.65.160] index:
+Undefined module: php-cgi
+[ Jun 29 2026 23:53:39 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D""+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input
+[ Jun 29 2026 23:53:41 ] [64.226.65.160] index:
+Undefined module: info.php
+[ Jun 29 2026 23:53:41 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /info.php
+[ Jun 29 2026 23:53:43 ] [64.226.65.160] index:
+Undefined module: .well-known
+[ Jun 29 2026 23:53:43 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /.well-known/security.txt
+[ Jun 29 2026 23:53:45 ] [64.226.65.160] index:
+Undefined module: actuator
+[ Jun 29 2026 23:53:45 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /actuator/env
+[ Jun 29 2026 23:53:48 ] [64.226.65.160] index:
+Undefined module: trace.axd
+[ Jun 29 2026 23:53:48 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /trace.axd
+[ Jun 29 2026 23:53:51 ] [64.226.65.160] index:
+Undefined module: @vite
+[ Jun 29 2026 23:53:51 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /@vite/env
+[ Jun 29 2026 23:53:53 ] [64.226.65.160] index:
+Undefined module: .vscode
+[ Jun 29 2026 23:53:53 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /.vscode/sftp.json
+[ Jun 29 2026 23:54:01 ] [64.226.65.160] index:
+Undefined module: debug
+[ Jun 29 2026 23:54:01 ] [64.226.65.160] error/view.php:
+Error ocurred using URI: /debug/default/view?panel=config
+[ Jul 01 2026 22:30:06 ] [89.37.63.249] index:
+Undefined module: auth
+[ Jul 01 2026 22:30:06 ] [89.37.63.249] error/view.php:
+Error ocurred using URI: /auth
+[ Jul 01 2026 22:54:36 ] [46.101.111.185] index:
+Undefined module: console
+[ Jul 01 2026 22:54:36 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /console/
+[ Jul 01 2026 22:54:38 ] [46.101.111.185] index:
+Undefined module: server
+[ Jul 01 2026 22:54:38 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /server
+[ Jul 01 2026 22:54:41 ] [46.101.111.185] index:
+Undefined module: server-status
+[ Jul 01 2026 22:54:41 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /server-status
+[ Jul 01 2026 22:54:43 ] [46.101.111.185] index:
+Undefined module: about
+[ Jul 01 2026 22:54:43 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /about
+[ Jul 01 2026 22:54:45 ] [46.101.111.185] index:
+Undefined module: login.action
+[ Jul 01 2026 22:54:45 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /login.action
+[ Jul 01 2026 22:54:50 ] [46.101.111.185] index:
+Undefined module: ___proxy_subdomain_whm
+[ Jul 01 2026 22:54:50 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /___proxy_subdomain_whm/login
+[ Jul 01 2026 22:54:53 ] [46.101.111.185] index:
+Undefined module: ___proxy_subdomain_cpanel
+[ Jul 01 2026 22:54:53 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /___proxy_subdomain_cpanel
+[ Jul 01 2026 22:54:55 ] [46.101.111.185] index:
+Undefined module: v2
+[ Jul 01 2026 22:54:55 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /v2/_catalog
+[ Jul 01 2026 22:54:58 ] [46.101.111.185] index:
+Undefined module: .DS_Store
+[ Jul 01 2026 22:54:58 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /.DS_Store
+[ Jul 01 2026 22:55:01 ] [46.101.111.185] index:
+Undefined module: .env
+[ Jul 01 2026 22:55:01 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /.env
+[ Jul 01 2026 22:55:04 ] [46.101.111.185] index:
+Undefined module: ecp
+[ Jul 01 2026 22:55:04 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[ Jul 01 2026 22:55:12 ] [46.101.111.185] index:
+Undefined module: api
+[ Jul 01 2026 22:55:12 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /api
+[ Jul 01 2026 22:55:14 ] [46.101.111.185] index:
+Undefined module: api
+[ Jul 01 2026 22:55:14 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /api/graphql
+[ Jul 01 2026 22:55:18 ] [46.101.111.185] index:
+Undefined module: api
+[ Jul 01 2026 22:55:18 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /api/gql
+[ Jul 01 2026 22:55:20 ] [46.101.111.185] index:
+Undefined module: s
+[ Jul 01 2026 22:55:20 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /s/43e2632313e24393e26363/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[ Jul 01 2026 22:55:23 ] [46.101.111.185] index:
+Undefined module: config.json
+[ Jul 01 2026 22:55:23 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /config.json
+[ Jul 01 2026 22:55:26 ] [46.101.111.185] index:
+Undefined module: telescope
+[ Jul 01 2026 22:55:26 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /telescope/requests
+[ Jul 01 2026 22:55:28 ] [46.101.111.185] index:
+Undefined module: php-cgi
+[ Jul 01 2026 22:55:28 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D""+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input
+[ Jul 01 2026 22:55:30 ] [46.101.111.185] index:
+Undefined module: info.php
+[ Jul 01 2026 22:55:30 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /info.php
+[ Jul 01 2026 22:55:32 ] [46.101.111.185] index:
+Undefined module: .well-known
+[ Jul 01 2026 22:55:32 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /.well-known/security.txt
+[ Jul 01 2026 22:55:35 ] [46.101.111.185] index:
+Undefined module: actuator
+[ Jul 01 2026 22:55:35 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /actuator/env
+[ Jul 01 2026 22:55:38 ] [46.101.111.185] index:
+Undefined module: trace.axd
+[ Jul 01 2026 22:55:38 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /trace.axd
+[ Jul 01 2026 22:55:40 ] [46.101.111.185] index:
+Undefined module: @vite
+[ Jul 01 2026 22:55:40 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /@vite/env
+[ Jul 01 2026 22:55:42 ] [46.101.111.185] index:
+Undefined module: .vscode
+[ Jul 01 2026 22:55:42 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /.vscode/sftp.json
+[ Jul 01 2026 22:55:50 ] [46.101.111.185] index:
+Undefined module: debug
+[ Jul 01 2026 22:55:50 ] [46.101.111.185] error/view.php:
+Error ocurred using URI: /debug/default/view?panel=config
+[ Jul 02 2026 00:16:10 ] [147.185.132.85] index:
+Undefined module: webshell.php
+[ Jul 02 2026 00:16:10 ] [147.185.132.85] error/view.php:
+Error ocurred using URI: /webshell.php
+[ Jul 02 2026 00:16:32 ] [198.235.24.168] index:
+Undefined module: shell
+[ Jul 02 2026 00:16:32 ] [198.235.24.168] error/view.php:
+Error ocurred using URI: /shell
+[ Jul 02 2026 15:11:37 ] [45.148.10.15] index:
+Undefined module: 10hzcq10u3her1gtzuaa0woqse
+[ Jul 02 2026 15:11:37 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /10hzcq10u3her1gtzuaa0woqse
+[ Jul 02 2026 15:11:45 ] [45.148.10.15] index:
+Undefined module: hy970sxvudo4y3s98g3bfj2n.html
+[ Jul 02 2026 15:11:45 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /hy970sxvudo4y3s98g3bfj2n.html
+[ Jul 02 2026 15:11:48 ] [45.148.10.15] index:
+Undefined module: 11xq08ixod5ww1q8okbvnn259s.php
+[ Jul 02 2026 15:11:48 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /11xq08ixod5ww1q8okbvnn259s.php
+[ Jul 02 2026 15:11:54 ] [45.148.10.15] index:
+Undefined module: .aws
+[ Jul 02 2026 15:11:54 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.aws/credentials
+[ Jul 02 2026 15:11:57 ] [45.148.10.15] index:
+Undefined module: .aws
+[ Jul 02 2026 15:11:57 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.aws/config
+[ Jul 02 2026 15:12:41 ] [45.148.10.15] index:
+Undefined module: .c9
+[ Jul 02 2026 15:12:41 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.c9/metadata/environment/.env
+[ Jul 02 2026 15:12:41 ] [45.148.10.15] index:
+Undefined module: .circleci
+[ Jul 02 2026 15:12:41 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.circleci/config.yml
+[ Jul 02 2026 15:12:59 ] [45.148.10.15] index:
+Undefined module: .debug
+[ Jul 02 2026 15:12:59 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.debug
+[ Jul 02 2026 15:12:59 ] [45.148.10.15] index:
+Undefined module: .debugbar
+[ Jul 02 2026 15:12:59 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.debugbar
+[ Jul 02 2026 15:13:09 ] [45.148.10.15] index:
+Undefined module: .editorconfig
+[ Jul 02 2026 15:13:09 ] [45.148.10.15] index:
+Undefined module: .docker
+[ Jul 02 2026 15:13:09 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.editorconfig
+[ Jul 02 2026 15:13:09 ] [45.148.10.15] error/view.php:
+Error ocurred using URI: /.docker/.env
+[ Jul 03 2026 02:26:52 ] [62.60.130.230] index:
+Undefined module: wp-content
+[ Jul 03 2026 02:26:52 ] [62.60.130.230] error/view.php:
+Error ocurred using URI: /wp-content/plugins/updraftplus/readme.txt
+[ Jul 03 2026 02:26:55 ] [62.60.130.230] index:
+Undefined module: wp-content
+[ Jul 03 2026 02:26:55 ] [62.60.130.230] error/view.php:
+Error ocurred using URI: /wp-content/plugins/updraftplus/css/updraftplus.css
+[ Jul 03 2026 02:26:58 ] [62.60.130.230] index:
+Undefined module: wp-json
+[ Jul 03 2026 02:26:58 ] [62.60.130.230] error/view.php:
+Error ocurred using URI: /wp-json/wp/v2/plugins
+[ Jul 03 2026 22:08:17 ] [50.191.224.82] index:
+Undefined module: adminui
+[ Jul 03 2026 22:08:17 ] [50.191.224.82] error/view.php:
+Error ocurred using URI: /adminui
+[ Jul 03 2026 22:09:23 ] [50.191.224.82] index:
+Undefined module: src
+[ Jul 03 2026 22:09:23 ] [50.191.224.82] error/view.php:
+Error ocurred using URI: /src/Cjw/TmvBundle/Resources/public/images/block_definitions/tmv_events.svg
+[ Jul 03 2026 23:06:36 ] [50.191.224.82] index:
+Undefined module: src
+[ Jul 03 2026 23:06:36 ] [50.191.224.82] error/view.php:
+Error ocurred using URI: /src/Cjw/TmvBundle/Resources/public/images/block_definitions/tmv_events.svg
+[ Jul 03 2026 23:16:26 ] [50.191.224.82] index:
+Undefined module: src
+[ Jul 03 2026 23:16:26 ] [50.191.224.82] error/view.php:
+Error ocurred using URI: /src/Cjw/TmvBundle/Resources/public/images/block_definitions/tmv_events.svg
