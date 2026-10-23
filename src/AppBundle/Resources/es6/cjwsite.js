@@ -86,7 +86,7 @@ $(() => {
       ],
     });
 
-  var slickSlider = jQuery('.slick-slider').slick();
+  var slickSlider = jQuery('.slick-slider:not(.slick-initialized)').slick();
 
   //https://stackoverflow.com/questions/563406/add-days-to-javascript-date
   Date.prototype.addDays = function (days) {
