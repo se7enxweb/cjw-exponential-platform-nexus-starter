@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["ezplatform-admin-ui-security-base-css"],{36:function(n,i,o){o("8PR8"),n.exports=o("NAmg")},"8PR8":function(n,i,o){},NAmg:function(n,i,o){}},[[36,"runtime"]]]);

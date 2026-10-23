@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["ezplatform-admin-ui-link-manager-list-js"],{24:function(n,t,e){n.exports=e("h/uM")},"h/uM":function(n,t){document.getElementById("search_data_status").addEventListener("change",(function(){this.form.submit()}))}},[[24,"runtime"]]]);

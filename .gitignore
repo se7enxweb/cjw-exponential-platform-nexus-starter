@@ -36,11 +36,8 @@
 !var/encore/.gitkeep
 /vendor/
 /web/bundles/
-/web/assets/translations/*
 /web/assets/build/*
 !web/assets/build/.gitkeep
-/web/assets/ezplatform/build/*
-!/web/assets/ezplatform/build/.gitkeep
 /node_modules/
 /bin/*
 !bin/.ci/
