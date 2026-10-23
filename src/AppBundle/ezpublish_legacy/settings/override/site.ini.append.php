@@ -12,6 +12,10 @@ Charset=utf8mb4
 
 [FileSettings]
 VarDir=var/site
+# ezpublish_legacy/var links to src/AppBundle/ezpublish_legacy/var, outside the
+# legacy root; without this, clearing the legacy caches is refused.
+# (relative to the legacy root, which is the working directory of the legacy kernel)
+AllowedDeletionDirs[]=../src/AppBundle/ezpublish_legacy/var
 
 [ExtensionSettings]
 ActiveExtensions[]
