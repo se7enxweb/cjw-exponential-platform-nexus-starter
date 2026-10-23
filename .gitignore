@@ -75,3 +75,13 @@ behat.yml
 .php_cs.cache
 auth.json
 ide-twig.json
+
+# Legacy caches and logs: written at run time, never shipped
+/src/AppBundle/ezpublish_legacy/var/cache/*
+!/src/AppBundle/ezpublish_legacy/var/cache/.gitkeep
+/src/AppBundle/ezpublish_legacy/var/site/cache/*
+!/src/AppBundle/ezpublish_legacy/var/site/cache/.gitkeep
+/src/AppBundle/ezpublish_legacy/var/log/*
+!/src/AppBundle/ezpublish_legacy/var/log/.gitkeep
+/src/AppBundle/ezpublish_legacy/var/site/log/*
+!/src/AppBundle/ezpublish_legacy/var/site/log/.gitkeep
