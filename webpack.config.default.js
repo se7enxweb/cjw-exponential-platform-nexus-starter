@@ -163,6 +163,33 @@ class CSSAssetExtractorAndRewriter {
         }
       }
       
+      // Copy the slick carousel loader image and icon fonts: app.css refers to them as
+      // slick/ajax-loader.gif and slick/fonts/slick.* next to itself, and the build
+      // directory is emptied before each build.
+      const slickSourceDir = path.join(__dirname, 'src/AppBundle/Resources/sass/slick');
+      [['ajax-loader.gif', 'ajax-loader.gif'], ['fonts', 'fonts']].forEach(([from, to]) => {
+        const src = path.join(slickSourceDir, from);
+        const dest = path.join(outputPath, 'slick', to);
+        try {
+          if (fs.existsSync(src)) {
+            fs.mkdirSync(path.dirname(dest), { recursive: true });
+            if (fs.statSync(src).isDirectory()) {
+              fs.mkdirSync(dest, { recursive: true });
+              fs.readdirSync(src).forEach((file) => {
+                const srcFile = path.join(src, file);
+                if (fs.statSync(srcFile).isFile()) {
+                  fs.copyFileSync(srcFile, path.join(dest, file));
+                }
+              });
+            } else {
+              fs.copyFileSync(src, dest);
+            }
+          }
+        } catch (e) {
+          // Ignore copy errors
+        }
+      });
+
       // Read and rewrite CSS file with proper asset paths
       let css = fs.readFileSync(cssFile, 'utf8');
       
