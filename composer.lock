@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb04034c4276126bb51903892eae5a8d",
+    "content-hash": "9bce07a6513cdc906145512d7e8e2b72",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -2577,31 +2577,30 @@
         },
         {
             "name": "google/recaptcha",
-            "version": "1.5",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/recaptcha.git",
-                "reference": "c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d"
+                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/recaptcha/zipball/c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d",
-                "reference": "c57f0b96babc8c9fb64cb555cd7b2c5aadfbe58d",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
+                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.4"
+                "php": ">=8"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.95",
-                "php-coveralls/php-coveralls": "^2.9.1",
-                "phpstan/phpstan": "^2.1.51",
-                "phpunit/phpunit": "^13.1"
+                "friendsofphp/php-cs-fixer": "^3.14",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpunit/phpunit": "^10"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.4.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -2626,7 +2625,7 @@
                 "issues": "https://github.com/google/recaptcha/issues",
                 "source": "https://github.com/google/recaptcha"
             },
-            "time": "2026-04-27T09:26:38+00:00"
+            "time": "2025-06-26T22:21:57+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -4430,93 +4429,6 @@
             "time": "2019-07-06T10:16:25+00:00"
         },
         {
-            "name": "netgen/content-browser",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/netgen-layouts/content-browser.git",
-                "reference": "d72637b9a5c01dd71da8f25de357db5b7b0aeab7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/netgen-layouts/content-browser/zipball/d72637b9a5c01dd71da8f25de357db5b7b0aeab7",
-                "reference": "d72637b9a5c01dd71da8f25de357db5b7b0aeab7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "jean85/pretty-package-versions": "^1.6 || ^2.0",
-                "netgen/content-browser-ui": "~1.4.0",
-                "pagerfanta/pagerfanta": "^2.7 || ^3.6",
-                "php": "^7.4 || ^8.1",
-                "sensio/framework-extra-bundle": "^5.4 || ^6.2",
-                "symfony/asset": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/config": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/console": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/dependency-injection": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/deprecation-contracts": "^2.5 || ^3.2",
-                "symfony/event-dispatcher": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/form": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/framework-bundle": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/http-foundation": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/http-kernel": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/monolog-bundle": "^3.6",
-                "symfony/options-resolver": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/polyfill-php80": "^1.27",
-                "symfony/property-access": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/routing": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/security-bundle": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/security-core": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/translation": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/twig-bundle": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/validator": "^3.4.47 || ^5.4 || ^6.2",
-                "symfony/yaml": "^3.4.47 || ^5.4 || ^6.2",
-                "twig/twig": "^2.15 || ^3.4"
-            },
-            "require-dev": {
-                "lchrusciel/api-test-case": "^4.1 || ^5.2",
-                "matthiasnoback/symfony-dependency-injection-test": "^4.2",
-                "netgen/layouts-coding-standard": "^2.0",
-                "phpstan/phpstan": "^1.9",
-                "phpstan/phpstan-phpunit": "^1.3",
-                "phpstan/phpstan-strict-rules": "^1.4",
-                "phpstan/phpstan-symfony": "^1.2",
-                "phpunit/phpunit": "^8.5 || ^9.6",
-                "symfony/phpunit-bridge": "^6.2",
-                "symfony/runtime": "^5.4 || ^6.2",
-                "symfony/var-dumper": "^3.4.47 || ^5.4 || ^6.2",
-                "vimeo/psalm": "^4.30 || ^5.4"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Netgen\\ContentBrowser\\": "lib/",
-                    "Netgen\\Bundle\\ContentBrowserBundle\\": "bundle/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Netgen",
-                    "homepage": "https://netgen.io"
-                }
-            ],
-            "description": "Netgen Content Browser is a Symfony bundle that provides an interface which selects items from any kind of backend and returns the IDs of selected items back to the calling code.",
-            "support": {
-                "issues": "https://github.com/netgen-layouts/content-browser/issues",
-                "source": "https://github.com/netgen-layouts/content-browser/tree/1.4.1"
-            },
-            "time": "2023-02-16T13:30:59+00:00"
-        },
-        {
             "name": "netgen/content-browser-ui",
             "version": "1.4.1",
             "source": {
@@ -5087,137 +4999,6 @@
             "time": "2022-10-18T13:45:15+00:00"
         },
         {
-            "name": "netgen/layouts-core",
-            "version": "1.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/netgen-layouts/layouts-core.git",
-                "reference": "fbcfc3c04f5871e205ab68d436c2e222796141e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/netgen-layouts/layouts-core/zipball/fbcfc3c04f5871e205ab68d436c2e222796141e5",
-                "reference": "fbcfc3c04f5871e205ab68d436c2e222796141e5",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/collections": "^1.8 || ^2.1",
-                "doctrine/dbal": "^2.13 || ^3.5",
-                "doctrine/doctrine-bundle": "^1.12 || ^2.7",
-                "doctrine/doctrine-migrations-bundle": "^2.2 || ^3.2",
-                "egulias/email-validator": "^2.1.25 || ^3.2",
-                "emodric/twig-package-versions": "^1.1",
-                "ext-intl": "*",
-                "ext-mbstring": "*",
-                "ezyang/htmlpurifier": "^4.16",
-                "friendsofsymfony/http-cache-bundle": "^1.3.16 || ^2.11",
-                "jean85/pretty-package-versions": "^1.6 || ^2.0",
-                "knplabs/knp-menu-bundle": "^2.3 || ^3.2",
-                "netgen/content-browser": "^1.4",
-                "netgen/layouts-ui": "~1.4.0",
-                "nikolaposa/version": "^4.1",
-                "pagerfanta/pagerfanta": "^2.7 || ^3.6",
-                "php": "^7.4 || ^8.1",
-                "ramsey/uuid": "^3.9 || ^4.2",
-                "sensio/framework-extra-bundle": "^5.4 || ^6.2",
-                "swaggest/json-schema": "^0.12.41",
-                "symfony/asset": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/config": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/console": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/dependency-injection": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/deprecation-contracts": "^2.5 || ^3.2",
-                "symfony/doctrine-bridge": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/event-dispatcher": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/expression-language": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/form": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/framework-bundle": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/http-client": "^5.4 || ^6.4",
-                "symfony/http-foundation": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/http-kernel": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/intl": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/monolog-bundle": "^3.6",
-                "symfony/options-resolver": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/polyfill-php80": "^1.27",
-                "symfony/property-access": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/routing": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/security-bundle": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/security-core": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/security-csrf": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/serializer": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/string": "^5.4 || ^6.4",
-                "symfony/translation": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/twig-bridge": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/twig-bundle": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/validator": "^3.4.47 || ^5.4 || ^6.4",
-                "symfony/yaml": "^3.4.47 || ^5.4 || ^6.4",
-                "twig/twig": "^2.15 || ^3.9",
-                "xemlock/htmlpurifier-html5": ">=0.1.11, <1.0"
-            },
-            "conflict": {
-                "composer/package-versions-deprecated": "<1.11.99",
-                "ocramius/proxy-manager": "<2.1",
-                "symfony/proxy-manager-bridge": "<3.4.47"
-            },
-            "require-dev": {
-                "behat/behat": "^3.7",
-                "behat/mink": "^1.9",
-                "behat/mink-selenium2-driver": "^1.6",
-                "coduo/php-matcher": "^3.2 || ^6.0",
-                "friends-of-behat/mink-browserkit-driver": "^1.3",
-                "friends-of-behat/mink-extension": "^2.5",
-                "friends-of-behat/page-object-extension": "^0.3",
-                "friends-of-behat/suite-settings-extension": "^1.0",
-                "friends-of-behat/symfony-extension": "^2.1@beta",
-                "friends-of-behat/variadic-extension": "^1.3",
-                "lchrusciel/api-test-case": "^4.1 || ^5.2",
-                "matthiasnoback/symfony-config-test": "^4.2 || ^5.0",
-                "matthiasnoback/symfony-dependency-injection-test": "^4.2 || ^5.0",
-                "netgen/layouts-coding-standard": "^2.0",
-                "netgen/layouts-standard": "~1.4.0",
-                "phpstan/phpstan": "^2.1",
-                "phpstan/phpstan-phpunit": "^2.0",
-                "phpstan/phpstan-strict-rules": "^2.0",
-                "phpstan/phpstan-symfony": "^2.0",
-                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.1",
-                "sebastian/diff": "^3.0 || ^4.0 || ^5.0",
-                "symfony/phpunit-bridge": "^6.4",
-                "symfony/runtime": "^5.4 || ^6.4",
-                "symfony/var-dumper": "^3.4.47 || ^5.4 || ^6.4",
-                "webmozart/assert": "^1.11"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Netgen\\Layouts\\": "lib/",
-                    "Netgen\\Layouts\\Migrations\\": "migrations/",
-                    "Netgen\\Bundle\\LayoutsBundle\\": "bundles/LayoutsBundle/",
-                    "Netgen\\Bundle\\LayoutsAdminBundle\\": "bundles/LayoutsAdminBundle/",
-                    "Netgen\\Bundle\\LayoutsDebugBundle\\": "bundles/LayoutsDebugBundle/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Netgen",
-                    "homepage": "https://netgen.io"
-                }
-            ],
-            "description": "Netgen Layouts enables you to build and manage complex web pages in a simpler way and with less coding. This is the core of Netgen Layouts, its heart and soul.",
-            "support": {
-                "issues": "https://github.com/netgen-layouts/layouts-core/issues",
-                "source": "https://github.com/netgen-layouts/layouts-core/tree/1.4.13"
-            },
-            "time": "2025-12-17T08:49:11+00:00"
-        },
-        {
             "name": "netgen/layouts-standard",
             "version": "1.4.3",
             "source": {
@@ -5325,43 +5106,6 @@
                 "source": "https://github.com/netgen-layouts/layouts-ui/tree/1.4.5"
             },
             "time": "2024-04-29T11:36:42+00:00"
-        },
-        {
-            "name": "netgen/media-site-data",
-            "version": "1.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/netgen/media-site-data.git",
-                "reference": "ca89038f284d7601c4f2af8fb69d476d60ae154e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/netgen/media-site-data/zipball/ca89038f284d7601c4f2af8fb69d476d60ae154e",
-                "reference": "ca89038f284d7601c4f2af8fb69d476d60ae154e",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.8.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Netgen",
-                    "homepage": "https://netgen.io"
-                }
-            ],
-            "description": "Demo data for Netgen Media Site",
-            "support": {
-                "issues": "https://github.com/netgen/media-site-data/issues",
-                "source": "https://github.com/netgen/media-site-data/tree/1.8.1"
-            },
-            "time": "2022-03-14T15:18:20+00:00"
         },
         {
             "name": "netgen/metadata-bundle",
@@ -8113,16 +7857,16 @@
         },
         {
             "name": "se7enxweb/admin-ui-bundle",
-            "version": "v2.9.15",
+            "version": "v2.9.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/NetgenAdminUIBundle.git",
-                "reference": "eca27758c407cc3611b902a65742232b51f58fdd"
+                "reference": "680198928259b9718a5e1fc2f06bebad310ede2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/eca27758c407cc3611b902a65742232b51f58fdd",
-                "reference": "eca27758c407cc3611b902a65742232b51f58fdd",
+                "url": "https://api.github.com/repos/se7enxweb/NetgenAdminUIBundle/zipball/680198928259b9718a5e1fc2f06bebad310ede2b",
+                "reference": "680198928259b9718a5e1fc2f06bebad310ede2b",
                 "shasum": ""
             },
             "require": {
@@ -8172,9 +7916,35 @@
                 "netgen"
             ],
             "support": {
-                "source": "https://github.com/se7enxweb/NetgenAdminUIBundle/tree/v2.9.15"
+                "source": "https://github.com/se7enxweb/NetgenAdminUIBundle/tree/v2.9.22"
             },
-            "time": "2026-02-26T06:58:54+00:00"
+            "funding": [
+                {
+                    "url": "https://account.venmo.com/u/se7enxweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://cash.app/$7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://se7enx.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/7xweb",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/se7enxweb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/7xweb",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2026-10-23T22:47:55+00:00"
         },
         {
             "name": "se7enxweb/bccie",
@@ -8504,6 +8274,46 @@
             "time": "2024-01-29T07:02:03+00:00"
         },
         {
+            "name": "se7enxweb/cjw-exponential-media-site-data",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/se7enxweb/cjw-exponential-media-site-data.git",
+                "reference": "4c9e1f99de5cab1724ddacd4129f35db66ac0e0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/se7enxweb/cjw-exponential-media-site-data/zipball/4c9e1f99de5cab1724ddacd4129f35db66ac0e0d",
+                "reference": "4c9e1f99de5cab1724ddacd4129f35db66ac0e0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "7x",
+                    "homepage": "https://se7enx.com"
+                }
+            ],
+            "description": "CJW Exponential Platform Nexus - JAC Example site installation data for use with ezplatform:install cjw-exponential-media",
+            "support": {
+                "issues": "https://github.com/se7enxweb/cjw-exponential-media-site-data/issues",
+                "source": "https://github.com/se7enxweb/cjw-exponential-media-site-data/tree/v1.0.2"
+            },
+            "time": "2026-10-23T22:52:15+00:00"
+        },
+        {
             "name": "se7enxweb/composer-parameter-handler",
             "version": "v2.1.6",
             "source": {
@@ -8558,6 +8368,95 @@
                 "source": "https://github.com/se7enxweb/ComposerParameterHandler/tree/v2.1.6"
             },
             "time": "2026-01-29T16:06:13+00:00"
+        },
+        {
+            "name": "se7enxweb/content-browser",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/se7enxweb/content-browser.git",
+                "reference": "d63a4b64556ac855eec3a89ae455fee311588fd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/se7enxweb/content-browser/zipball/d63a4b64556ac855eec3a89ae455fee311588fd7",
+                "reference": "d63a4b64556ac855eec3a89ae455fee311588fd7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "jean85/pretty-package-versions": "^1.6 || ^2.0",
+                "netgen/content-browser-ui": "~1.4.0",
+                "pagerfanta/pagerfanta": "^2.7 || ^3.6",
+                "php": "^7.4 || ^8.0",
+                "sensio/framework-extra-bundle": "^5.4 || ^6.2",
+                "symfony/asset": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/config": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/console": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/dependency-injection": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/deprecation-contracts": "^2.5 || ^3.2",
+                "symfony/event-dispatcher": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/form": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/framework-bundle": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/http-foundation": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/http-kernel": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/monolog-bundle": "^3.6",
+                "symfony/options-resolver": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/polyfill-php80": "^1.27",
+                "symfony/property-access": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/routing": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/security-bundle": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/security-core": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/translation": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/twig-bundle": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/validator": "^3.4.47 || ^5.4 || ^6.2",
+                "symfony/yaml": "^3.4.47 || ^5.4 || ^6.2",
+                "twig/twig": "^2.15 || ^3.4"
+            },
+            "replace": {
+                "netgen/content-browser": "self.version"
+            },
+            "require-dev": {
+                "lchrusciel/api-test-case": "^4.1 || ^5.2",
+                "matthiasnoback/symfony-dependency-injection-test": "^4.2",
+                "netgen/layouts-coding-standard": "^2.0",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpstan/phpstan-symfony": "^1.2",
+                "phpunit/phpunit": "^8.5 || ^9.6",
+                "symfony/phpunit-bridge": "^6.2",
+                "symfony/runtime": "^5.4 || ^6.2",
+                "symfony/var-dumper": "^3.4.47 || ^5.4 || ^6.2",
+                "vimeo/psalm": "^4.30 || ^5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\ContentBrowser\\": "lib/",
+                    "Netgen\\Bundle\\ContentBrowserBundle\\": "bundle/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "https://netgen.io"
+                }
+            ],
+            "description": "Netgen Content Browser is a Symfony bundle that provides an interface which selects items from any kind of backend and returns the IDs of selected items back to the calling code.",
+            "support": {
+                "source": "https://github.com/se7enxweb/content-browser/tree/1.4.2"
+            },
+            "time": "2026-10-23T22:51:52+00:00"
         },
         {
             "name": "se7enxweb/content-browser-ezplatform",
@@ -11727,6 +11626,139 @@
             "time": "2024-08-11T09:09:41+00:00"
         },
         {
+            "name": "se7enxweb/layouts-core",
+            "version": "1.4.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/se7enxweb/layouts-core.git",
+                "reference": "184d1e5a5270cec89d1b7639e760ceac35dfd938"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/se7enxweb/layouts-core/zipball/184d1e5a5270cec89d1b7639e760ceac35dfd938",
+                "reference": "184d1e5a5270cec89d1b7639e760ceac35dfd938",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "^1.8 || ^2.1",
+                "doctrine/dbal": "^2.13 || ^3.5",
+                "doctrine/doctrine-bundle": "^1.12 || ^2.7",
+                "doctrine/doctrine-migrations-bundle": "^2.2 || ^3.2",
+                "egulias/email-validator": "^2.1.25 || ^3.2",
+                "emodric/twig-package-versions": "^1.1",
+                "ext-intl": "*",
+                "ext-mbstring": "*",
+                "ezyang/htmlpurifier": "^4.16",
+                "friendsofsymfony/http-cache-bundle": "^1.3.16 || ^2.11",
+                "jean85/pretty-package-versions": "^1.6 || ^2.0",
+                "knplabs/knp-menu-bundle": "^2.3 || ^3.2",
+                "netgen/content-browser": "^1.4",
+                "netgen/layouts-ui": "~1.4.0",
+                "nikolaposa/version": "^4.1",
+                "pagerfanta/pagerfanta": "^2.7 || ^3.6",
+                "php": "^7.4 || ^8.0",
+                "ramsey/uuid": "^3.9 || ^4.2",
+                "sensio/framework-extra-bundle": "^5.4 || ^6.2",
+                "swaggest/json-schema": "^0.12.41",
+                "symfony/asset": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/config": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/console": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/dependency-injection": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/deprecation-contracts": "^2.5 || ^3.2",
+                "symfony/doctrine-bridge": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/event-dispatcher": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/expression-language": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/form": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/framework-bundle": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/http-client": "^5.4 || ^6.4",
+                "symfony/http-foundation": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/http-kernel": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/intl": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/monolog-bundle": "^3.6",
+                "symfony/options-resolver": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/polyfill-php80": "^1.27",
+                "symfony/property-access": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/routing": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/security-bundle": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/security-core": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/security-csrf": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/serializer": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/string": "^5.4 || ^6.4",
+                "symfony/translation": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/twig-bridge": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/twig-bundle": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/validator": "^3.4.47 || ^5.4 || ^6.4",
+                "symfony/yaml": "^3.4.47 || ^5.4 || ^6.4",
+                "twig/twig": "^2.15 || ^3.9",
+                "xemlock/htmlpurifier-html5": ">=0.1.11, <1.0"
+            },
+            "conflict": {
+                "composer/package-versions-deprecated": "<1.11.99",
+                "ocramius/proxy-manager": "<2.1",
+                "symfony/proxy-manager-bridge": "<3.4.47"
+            },
+            "replace": {
+                "netgen/layouts-core": "self.version"
+            },
+            "require-dev": {
+                "behat/behat": "^3.7",
+                "behat/mink": "^1.9",
+                "behat/mink-selenium2-driver": "^1.6",
+                "coduo/php-matcher": "^3.2 || ^6.0",
+                "friends-of-behat/mink-browserkit-driver": "^1.3",
+                "friends-of-behat/mink-extension": "^2.5",
+                "friends-of-behat/page-object-extension": "^0.3",
+                "friends-of-behat/suite-settings-extension": "^1.0",
+                "friends-of-behat/symfony-extension": "^2.1@beta",
+                "friends-of-behat/variadic-extension": "^1.3",
+                "lchrusciel/api-test-case": "^4.1 || ^5.2",
+                "matthiasnoback/symfony-config-test": "^4.2 || ^5.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^4.2 || ^5.0",
+                "netgen/layouts-coding-standard": "^2.0",
+                "netgen/layouts-standard": "~1.4.0",
+                "phpstan/phpstan": "^2.1",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "phpstan/phpstan-symfony": "^2.0",
+                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.1",
+                "sebastian/diff": "^3.0 || ^4.0 || ^5.0",
+                "symfony/phpunit-bridge": "^6.4",
+                "symfony/runtime": "^5.4 || ^6.4",
+                "symfony/var-dumper": "^3.4.47 || ^5.4 || ^6.4",
+                "webmozart/assert": "^1.11"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\Layouts\\": "lib/",
+                    "Netgen\\Layouts\\Migrations\\": "migrations/",
+                    "Netgen\\Bundle\\LayoutsBundle\\": "bundles/LayoutsBundle/",
+                    "Netgen\\Bundle\\LayoutsAdminBundle\\": "bundles/LayoutsAdminBundle/",
+                    "Netgen\\Bundle\\LayoutsDebugBundle\\": "bundles/LayoutsDebugBundle/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "https://netgen.io"
+                }
+            ],
+            "description": "Netgen Layouts enables you to build and manage complex web pages in a simpler way and with less coding. This is the core of Netgen Layouts, its heart and soul.",
+            "support": {
+                "source": "https://github.com/se7enxweb/layouts-core/tree/1.4.14"
+            },
+            "time": "2026-10-23T23:05:18+00:00"
+        },
+        {
             "name": "se7enxweb/layouts-ezplatform",
             "version": "v1.4.11",
             "source": {
@@ -12571,16 +12603,16 @@
         },
         {
             "name": "se7enxweb/richtext-datatype-bundle",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/NetgenRichTextDataTypeBundle.git",
-                "reference": "e6782d14cd04137fa03cefe2771b024f1f3e1479"
+                "reference": "11cd222f26a2ea5404dae576916f529e14fef9c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/NetgenRichTextDataTypeBundle/zipball/e6782d14cd04137fa03cefe2771b024f1f3e1479",
-                "reference": "e6782d14cd04137fa03cefe2771b024f1f3e1479",
+                "url": "https://api.github.com/repos/se7enxweb/NetgenRichTextDataTypeBundle/zipball/11cd222f26a2ea5404dae576916f529e14fef9c7",
+                "reference": "11cd222f26a2ea5404dae576916f529e14fef9c7",
                 "shasum": ""
             },
             "require": {
@@ -12611,7 +12643,7 @@
             "description": "Netgen RichText datatype bundle allows eZ Publish Legacy to work with rich text (ezrichtext) field type available in eZ Platform",
             "support": {
                 "issues": "https://github.com/se7enxweb/NetgenRichTextDataTypeBundle/issues",
-                "source": "https://github.com/se7enxweb/NetgenRichTextDataTypeBundle/tree/v2.0.2"
+                "source": "https://github.com/se7enxweb/NetgenRichTextDataTypeBundle/tree/v2.0.3"
             },
             "funding": [
                 {
@@ -12639,7 +12671,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-01-31T09:57:17+00:00"
+            "time": "2026-10-23T19:46:17+00:00"
         },
         {
             "name": "se7enxweb/sensio-distribution-bundle",
@@ -14764,16 +14796,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.49",
+            "version": "v5.4.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "d77d8e212cde7b5c4a64142bf431522f19487c28"
+                "reference": "240dce305e7b4ca31eeaa65ac9f24e033e21aae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/d77d8e212cde7b5c4a64142bf431522f19487c28",
-                "reference": "d77d8e212cde7b5c4a64142bf431522f19487c28",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/240dce305e7b4ca31eeaa65ac9f24e033e21aae7",
+                "reference": "240dce305e7b4ca31eeaa65ac9f24e033e21aae7",
                 "shasum": ""
             },
             "require": {
@@ -14835,7 +14867,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.49"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.54"
             },
             "funding": [
                 {
@@ -14847,11 +14879,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-28T08:37:04+00:00"
+            "time": "2026-10-14T13:53:45+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
