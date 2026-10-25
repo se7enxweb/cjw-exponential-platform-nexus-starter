@@ -7,7 +7,7 @@
         "ezsystems/doctrine-dbal-schema": "*"
     },
     "require": {
-        "php": "^7.1 || ^8.1 || ^8.2",
+        "php": "^7.1 || ^8.0",
         "symfony/http-kernel": "^3.4",
         "symfony/yaml": "^3.4",
         "doctrine/dbal": "^2.9",
