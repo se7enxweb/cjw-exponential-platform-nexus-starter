@@ -209,6 +209,22 @@ If either link is missing (for example after `composer update` reinstalled the l
 kernel), create it again with `ln -s` and the target shown, then run
 `php bin/console ezpublish:legacy:script bin/php/ezpgenerateautoloads.php`.
 
+Do not move or link `ezpublish_legacy/var/site/storage` as the install guides of CJW
+Exponential Platform Nexus and Exponential Platform Nexus do: here it already is the
+project's storage, through the `ezpublish_legacy/var` link. Their
+`mv ezpublish_legacy/var/site/storage ...` followed by
+`ln -s ../../../src/AppBundle/ezpublish_legacy/var/site/storage ezpublish_legacy/var/site/storage`
+moves the demo images away and leaves a link that points nowhere, and every page then
+answers HTTP 500 with `Impossible to create the root directory ""` (the storage directory of
+the file handler resolves to an empty path). To repair it, remove that link and move the
+directory back:
+
+```shell
+rm ezpublish_legacy/var/site/storage
+mv ezpublish_legacy/var/site/storage-empty ezpublish_legacy/var/site/storage
+php bin/console cache:clear
+```
+
 ## 7. Clear the caches
 
 ```shell
