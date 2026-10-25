@@ -75,7 +75,6 @@ class ComposerStaticInite80d6b55f3b1a2f04625611863d9635a
         'S' =>
         array (
             'Symfony\\WebpackEncoreBundle\\' => 28,
-            'Symfony\\Thanks\\' => 15,
             'Symfony\\Polyfill\\Uuid\\' => 22,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Php73\\' => 23,
@@ -427,10 +426,6 @@ class ComposerStaticInite80d6b55f3b1a2f04625611863d9635a
         'Symfony\\WebpackEncoreBundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/webpack-encore-bundle/src',
-        ),
-        'Symfony\\Thanks\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/symfony/thanks/src',
         ),
         'Symfony\\Polyfill\\Uuid\\' =>
         array (
